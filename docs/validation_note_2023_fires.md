@@ -47,6 +47,38 @@ final per-fire table as separate, additional events EFFIS caught that Fenice
 Verde's blog post didn't name (their catasto may or may not already have these
 two logged — worth checking against deliverable 4's gap analysis).
 
+## Prithvi (high-resolution burn-scar model) result
+
+Ran `Prithvi-EO-2.0-300M-BurnScars` on real Sentinel-2/HLS imagery (via Microsoft
+Planetary Computer, no GEE needed) for both fire locations, first post-fire
+cloud-free-ish scene available.
+
+| Fire | Known area | Prithvi detected area | Distance of detection centroid from named location |
+|---|---|---|---|
+| Contrada Tiberio (15 Sep) | ~2 ha | 36 ha | ~400 m |
+| Foce del fiume Pollina (21 Sep) | ~12 ha (22.4 ha comune-clipped, 145 ha full EFFIS complex) | 101.6 ha | ~440 m |
+
+Both runs located a burn scar within ~450m of the named site — a real positional
+hit, not noise. Both substantially overestimate area (18x for Tiberio, ~5-8x for
+Pollina depending which ground-truth figure you compare to). Notably, **Prithvi
+found something at Tiberio where EFFIS found nothing at all** — direct evidence
+of the high-resolution layer catching what the coarser layer misses, exactly as
+designed. But the area overestimation is real and worth taking seriously: this
+is the Sicilian-terrain transferability risk the model card itself flags
+(87.5% IoU is a US test-data number). One early false lead worth recording: an
+initial Pollina run showed 41% of the whole chip as "burned" - turned out to be
+a bug in our own chip-fetching script (window ran off the edge of the source
+imagery tile, model correctly flagged the resulting black/no-data pixels as
+anomalous). Fixed in `scripts/fetch_hls_chip.py` by validating window bounds
+before reading. Worth remembering as a lesson: an alarming-looking model result
+is worth checking your own pipeline for bugs before concluding the model failed.
+
+**Read for the gate:** Prithvi is directionally right (correct location, catches
+what EFFIS misses) but not precise on area without further calibration. Present
+it in the deck as "locates burn scars EFFIS misses, area estimates are
+indicative not precise" - do not quote its hectare figures as authoritative on
+their own.
+
 ## What this means for deliverable 3 (the one-pager)
 
 Don't present "EFFIS confirms the known fires" as a clean headline. The honest,
