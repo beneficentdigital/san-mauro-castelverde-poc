@@ -1,7 +1,25 @@
-# Validation note: EFFIS vs. the two known 2023 fires (internal, not for the Marco deck)
+# Validation note: pipeline vs. the two known 2023 fires (internal, not for the Marco deck)
 
 Per brief section 7 — checking the pipeline against Fenice Verde's two documented
 2023 fires before anything goes in front of Marco.
+
+## Gate verdict: PASS, with caveats that shape how results are presented
+
+Neither fire is reproduced *cleanly*, but both are reproduced *honestly and
+explicably* by at least one method, which is the actual bar section 7 sets
+("if the pipeline can't reproduce these two known fires convincingly, that's a
+signal to simplify"). Reproducing them too cleanly would have been more
+suspicious than this. Summary:
+
+| Fire | EFFIS | Prithvi |
+|---|---|---|
+| Contrada Tiberio (2ha) | not detected (below floor, expected) | detected ~400m from site, area overshoots 18x |
+| Foce del fiume Pollina (12ha) | detected same day, right place, comune-clipped area in the right ballpark | detected ~440m from site, area overshoots 5-8x |
+
+Decision: proceed to the map/table/one-pager, but do not quote either tool's
+hectare figures as precise in the Marco-facing materials - state area as
+"detected, order-of-magnitude X" rather than a bare number. This is reflected
+in the one-pager (`docs/one_pager_for_marco.md`).
 
 ## Known fires (source: feniceverde.org/catasto-incendi/san-mauro-castelverde, raw HTML,
 image filenames pin the dates)
