@@ -1,0 +1,589 @@
+fire_id,comune,fire_date,area_ha,day_or_night_ignition,pct_agricultural_landcover,pastureland_context_flag,shape_compactness,straight_edge_fraction,geometric_shape_flag
+17754,Alia,2019-08-23 00:00:00.000,87,night,48.8,near/in agricultural land,0.216,0.553,True
+15638,Castronovo di Sicilia,2019-07-24 00:00:00.000,43,night,100.0,near/in agricultural land,0.597,0.478,True
+42361,Alia,2020-08-03 00:12:00.000,10,night,100.0,near/in agricultural land,0.803,0.314,False
+51789,Sclafani Bagni,2021-08-01 00:00:00.000,394,night,98.2,near/in agricultural land,0.323,0.504,True
+209694,Montemaggiore Belsito,2022-08-18 01:34:00.000,281,night,57.5,near/in agricultural land,0.29,0.376,True
+210635,Sclafani Bagni,2022-09-16 11:21:00.000,296,day,7.7,not predominantly agricultural,0.243,0.4,True
+238335,Alia,2024-08-19 11:40:00.000,45,day,30.0,not predominantly agricultural,0.336,0.392,True
+16648,Alimena,2019-08-03 00:00:00.000,282,night,55.0,near/in agricultural land,0.374,0.483,True
+41692,Santa Caterina Villarmosa,2020-08-01 11:18:00.000,162,day,59.6,near/in agricultural land,0.41,0.356,True
+55295,Alimena,2021-09-16 11:17:00.000,14,day,0.0,not predominantly agricultural,0.73,0.435,True
+55294,Alimena,2021-09-16 11:17:00.000,49,day,4.0,not predominantly agricultural,0.76,0.458,True
+55366,Santa Caterina Villarmosa,2021-09-17 11:47:00.000,28,day,59.3,near/in agricultural land,0.331,0.239,False
+217706,Alimena,2023-07-25 11:21:00.000,1612,day,54.0,near/in agricultural land,0.263,0.351,True
+222103,Resuttano,2023-10-03 11:10:00.000,6,day,0.0,not predominantly agricultural,0.882,0.214,False
+221095,Alimena,2023-09-19 12:12:00.000,41,day,4.8,not predominantly agricultural,0.596,0.31,False
+221094,Santa Caterina Villarmosa,2023-09-22 11:17:00.000,142,day,70.3,near/in agricultural land,0.558,0.37,True
+275961,Santa Caterina Villarmosa,2025-07-29 11:15:00.000,226,day,75.9,near/in agricultural land,0.153,0.374,True
+42824,Cerda,2020-08-30 10:15:00.000,439,day,43.1,near/in agricultural land,0.612,0.426,True
+217472,Aliminusa,2023-07-24 10:51:00.000,2862,day,53.6,near/in agricultural land,0.173,0.371,True
+14282,Altavilla Milicia,2018-07-22 00:00:00.000,1649,night,17.1,not predominantly agricultural,0.269,0.539,True
+49555,Casteldaccia,2021-06-03 23:54:00.000,2,night,0.0,not predominantly agricultural,0.493,0.585,True
+211833,Altavilla Milicia,2023-01-06 00:49:00.000,10,night,36.4,near/in agricultural land,0.717,0.264,False
+229766,Altavilla Milicia,2024-04-23 00:33:00.000,14,night,0.0,not predominantly agricultural,0.377,0.382,True
+18842,Altofonte,2019-08-03 00:00:00.000,108,night,0.0,not predominantly agricultural,0.839,0.575,True
+40441,Altofonte,2020-07-13 11:24:00.000,7,day,12.5,not predominantly agricultural,0.809,0.18,False
+40331,Altofonte,2020-07-12 10:24:22.301,13,day,0.0,not predominantly agricultural,0.58,0.251,False
+41121,Altofonte,2020-07-30 00:36:00.000,28,night,0.0,not predominantly agricultural,0.687,0.209,False
+41122,Altofonte,2020-08-03 10:35:00.000,30,day,10.3,not predominantly agricultural,0.636,0.513,True
+42822,Altofonte,2020-08-29 20:35:00.000,837,night,15.9,not predominantly agricultural,0.538,0.182,False
+53037,Santa Cristina Gela,2021-08-13 00:00:00.000,14,night,0.0,not predominantly agricultural,0.566,0.324,False
+49372,Altofonte,2021-05-22 11:54:00.000,19,day,5.0,not predominantly agricultural,0.411,0.356,True
+51394,Piana degli Albanesi,2021-07-29 11:34:00.000,2120,day,25.7,not predominantly agricultural,0.338,0.096,False
+51504,Belmonte Mezzagno,2021-07-30 11:17:00.000,94,day,41.5,near/in agricultural land,0.22,0.26,False
+53036,Altofonte,2021-08-13 11:04:00.000,51,day,0.0,not predominantly agricultural,0.16,0.327,False
+53039,Santa Cristina Gela,2021-08-17 11:53:00.000,27,day,7.7,not predominantly agricultural,0.254,0.298,False
+209389,Altofonte,2022-08-18 11:15:00.000,277,day,7.5,not predominantly agricultural,0.193,0.426,True
+209600,Altofonte,2022-08-18 11:15:00.000,6,day,0.0,not predominantly agricultural,0.623,0.258,False
+206728,Altofonte,2022-07-23 11:02:00.000,3,day,0.0,not predominantly agricultural,0.7,0.481,True
+206080,Altofonte,2022-07-15 11:51:00.000,12,day,0.0,not predominantly agricultural,0.707,0.46,True
+210200,Altofonte,2022-09-05 10:04:00.000,56,day,0.0,not predominantly agricultural,0.641,0.39,True
+210238,Altofonte,2022-09-09 00:33:00.000,11,night,0.0,not predominantly agricultural,0.469,0.48,True
+209597,Altofonte,2022-08-18 00:00:00.000,33,night,12.9,not predominantly agricultural,0.622,0.314,False
+209598,Altofonte,2022-08-18 00:00:00.000,6,night,0.0,not predominantly agricultural,0.863,0.308,False
+210847,Altofonte,2022-09-23 11:40:00.000,45,day,2.4,not predominantly agricultural,0.154,0.344,False
+204390,Altofonte,2022-06-29 00:00:00.000,8,night,25.0,not predominantly agricultural,0.77,0.334,False
+206727,Altofonte,2022-07-23 11:02:00.000,20,day,0.0,not predominantly agricultural,0.524,0.411,True
+217114,Altofonte,2023-07-15 12:51:00.000,6,day,16.7,not predominantly agricultural,0.333,0.296,False
+217116,Altofonte,2023-07-15 12:51:00.000,1,day,0.0,not predominantly agricultural,0.749,0.407,True
+217501,Altofonte,2023-07-21 00:26:00.000,14,night,0.0,not predominantly agricultural,0.429,0.341,False
+217316,Altofonte,2023-07-17 11:21:00.000,20,day,4.2,not predominantly agricultural,0.248,0.374,True
+217661,Altofonte,2023-07-25 00:00:00.000,25,night,0.0,not predominantly agricultural,0.462,0.416,True
+217659,Altofonte,2023-07-25 00:03:00.000,311,night,8.3,not predominantly agricultural,0.3,0.432,True
+221074,Santa Cristina Gela,2023-09-21 20:51:00.000,160,night,75.0,near/in agricultural land,0.645,0.247,False
+219518,Altofonte,2023-08-26 11:21:00.000,7,day,0.0,not predominantly agricultural,0.215,0.4,True
+219519,Altofonte,2023-08-26 00:00:00.000,3,night,0.0,not predominantly agricultural,0.899,0.237,False
+217929,Palermo,2023-07-27 01:54:00.000,1663,night,7.9,not predominantly agricultural,0.108,0.51,True
+217660,Altofonte,2023-07-25 00:52:00.000,137,night,3.7,not predominantly agricultural,0.266,0.425,True
+239715,Altofonte,2024-08-26 11:34:00.000,9,day,10.0,not predominantly agricultural,0.576,0.199,False
+275723,Altofonte,2025-07-24 11:07:38.560,1,day,0.0,not predominantly agricultural,0.784,0.277,False
+275719,Altofonte,2025-07-24 12:00:00.000,246,day,3.3,not predominantly agricultural,0.284,0.344,False
+281710,Altofonte,2025-09-22 00:39:00.000,6,night,0.0,not predominantly agricultural,0.799,0.424,True
+279607,Altofonte,2025-08-27 11:21:00.000,11,day,0.0,not predominantly agricultural,0.319,0.328,False
+279608,Altofonte,2025-08-28 11:51:00.000,8,day,0.0,not predominantly agricultural,0.328,0.398,True
+281709,Altofonte,2025-09-22 00:13:00.000,33,night,0.0,not predominantly agricultural,0.714,0.52,True
+26269,Bagheria,2020-05-04 01:06:00.000,8,night,0.0,not predominantly agricultural,0.762,0.3,False
+40307,Bagheria,2020-07-11 00:42:00.000,22,night,0.0,not predominantly agricultural,0.589,0.686,True
+40111,Bagheria,2020-06-22 21:00:00.000,18,night,21.1,not predominantly agricultural,0.534,0.387,True
+209159,Bagheria,2022-08-06 20:57:00.000,22,night,27.3,not predominantly agricultural,0.674,0.379,True
+14343,Palermo,2018-07-17 00:00:00.000,52,night,10.9,not predominantly agricultural,0.483,0.531,True
+14277,Misilmeri,2018-07-22 00:00:00.000,209,night,13.9,not predominantly agricultural,0.59,0.544,True
+19088,Misilmeri,2019-06-13 00:00:00.000,26,night,0.0,not predominantly agricultural,0.535,0.53,True
+17475,Belmonte Mezzagno,2019-08-02 00:00:00.000,86,night,0.0,not predominantly agricultural,0.653,0.703,True
+17160,Belmonte Mezzagno,2019-08-06 00:00:00.000,127,night,23.2,not predominantly agricultural,0.747,0.764,True
+40442,Misilmeri,2020-07-10 10:08:52.711,11,day,0.0,not predominantly agricultural,0.695,0.489,True
+40143,Belmonte Mezzagno,2020-07-01 09:50:00.000,33,day,14.7,not predominantly agricultural,0.458,0.224,False
+40443,Belmonte Mezzagno,2020-07-10 16:09:50.538,4,day,0.0,not predominantly agricultural,0.91,0.096,False
+40260,Belmonte Mezzagno,2020-07-01 10:07:40.945,22,day,59.1,near/in agricultural land,0.443,0.044,False
+40921,Santa Cristina Gela,2020-07-28 11:42:00.000,18,day,0.0,not predominantly agricultural,0.59,0.258,False
+43058,Santa Cristina Gela,2020-08-30 11:24:00.000,134,day,0.0,not predominantly agricultural,0.454,0.199,False
+43376,Belmonte Mezzagno,2020-08-28 11:12:00.000,16,day,40.0,near/in agricultural land,0.392,0.214,False
+43379,Belmonte Mezzagno,2020-08-30 00:06:00.000,5,night,0.0,not predominantly agricultural,0.609,0.192,False
+50778,Misilmeri,2021-06-27 00:00:00.000,25,night,36.0,near/in agricultural land,0.649,0.358,True
+51505,Belmonte Mezzagno,2021-07-30 11:17:00.000,28,day,0.0,not predominantly agricultural,0.553,0.296,False
+52124,Belmonte Mezzagno,2021-08-01 12:17:00.000,11,day,50.0,near/in agricultural land,0.431,0.212,False
+49777,Misilmeri,2021-06-15 11:24:16.264,14,day,0.0,not predominantly agricultural,0.54,0.451,True
+50089,Belmonte Mezzagno,2021-06-20 11:17:00.000,61,day,5.2,not predominantly agricultural,0.258,0.087,False
+50301,Belmonte Mezzagno,2021-07-05 11:34:00.000,3,day,0.0,not predominantly agricultural,0.787,0.159,False
+50225,Belmonte Mezzagno,2021-07-05 00:00:00.000,9,night,0.0,not predominantly agricultural,0.832,0.344,False
+50224,Belmonte Mezzagno,2021-07-05 00:00:00.000,35,night,0.0,not predominantly agricultural,0.64,0.437,True
+50851,Belmonte Mezzagno,2021-06-27 00:00:00.000,26,night,0.0,not predominantly agricultural,0.564,0.184,False
+51507,Belmonte Mezzagno,2021-07-30 11:17:00.000,5,day,60.0,near/in agricultural land,0.408,0.174,False
+51508,Belmonte Mezzagno,2021-07-30 11:17:00.000,2,day,0.0,not predominantly agricultural,0.598,0.231,False
+51506,Belmonte Mezzagno,2021-07-30 00:00:00.000,8,night,37.5,near/in agricultural land,0.722,0.423,True
+52125,Belmonte Mezzagno,2021-08-04 11:21:00.000,13,day,18.2,not predominantly agricultural,0.344,0.363,True
+53038,Santa Cristina Gela,2021-08-13 00:00:00.000,12,night,9.1,not predominantly agricultural,0.891,0.394,True
+53115,Misilmeri,2021-08-17 11:28:00.000,82,day,13.1,not predominantly agricultural,0.377,0.296,False
+52123,Belmonte Mezzagno,2021-08-01 12:17:00.000,82,day,23.5,not predominantly agricultural,0.231,0.297,False
+210143,Misilmeri,2022-09-04 10:56:00.000,937,day,2.7,not predominantly agricultural,0.298,0.515,True
+210861,Santa Cristina Gela,2022-09-25 09:39:00.000,6,day,0.0,not predominantly agricultural,0.799,0.305,False
+209599,Belmonte Mezzagno,2022-08-18 00:00:00.000,10,night,11.1,not predominantly agricultural,0.374,0.43,True
+204389,Belmonte Mezzagno,2022-06-29 00:33:00.000,29,night,10.7,not predominantly agricultural,0.339,0.411,True
+209436,Belmonte Mezzagno,2022-08-18 00:00:00.000,30,night,6.9,not predominantly agricultural,0.574,0.337,False
+204370,Belmonte Mezzagno,2022-06-27 00:00:00.000,8,night,28.6,not predominantly agricultural,0.565,0.323,False
+209601,Belmonte Mezzagno,2022-08-18 00:00:00.000,10,night,0.0,not predominantly agricultural,0.741,0.348,False
+210237,Santa Cristina Gela,2022-09-09 00:00:00.000,34,night,12.1,not predominantly agricultural,0.624,0.511,True
+209435,Belmonte Mezzagno,2022-08-19 01:15:00.000,176,night,19.0,not predominantly agricultural,0.362,0.283,False
+209437,Belmonte Mezzagno,2022-08-18 11:15:00.000,44,day,26.8,not predominantly agricultural,0.414,0.333,False
+209359,Misilmeri,2022-08-18 11:15:00.000,86,day,85.1,near/in agricultural land,0.408,0.358,True
+209596,Misilmeri,2022-08-18 00:00:00.000,15,night,0.0,not predominantly agricultural,0.688,0.161,False
+209602,Belmonte Mezzagno,2022-08-18 00:00:00.000,12,night,16.7,not predominantly agricultural,0.365,0.233,False
+208696,Belmonte Mezzagno,2022-08-02 12:55:00.000,9,day,10.0,not predominantly agricultural,0.545,0.497,True
+208697,Belmonte Mezzagno,2022-08-02 12:55:00.000,7,day,0.0,not predominantly agricultural,0.289,0.426,True
+223096,Santa Cristina Gela,2023-10-19 12:00:00.000,6,day,0.0,not predominantly agricultural,0.687,0.266,False
+221077,Belmonte Mezzagno,2023-09-22 00:43:00.000,38,night,51.2,near/in agricultural land,0.311,0.31,False
+217090,Belmonte Mezzagno,2023-07-12 12:57:00.000,22,day,23.8,not predominantly agricultural,0.449,0.441,True
+217089,Belmonte Mezzagno,2023-07-13 11:49:00.000,19,day,0.0,not predominantly agricultural,0.513,0.406,True
+217313,Belmonte Mezzagno,2023-07-18 12:44:00.000,36,day,2.8,not predominantly agricultural,0.37,0.334,False
+217314,Belmonte Mezzagno,2023-07-18 11:05:52.885,13,day,0.0,not predominantly agricultural,0.406,0.403,True
+217315,Belmonte Mezzagno,2023-07-18 11:06:07.649,7,day,0.0,not predominantly agricultural,0.931,0.179,False
+221078,Misilmeri,2023-09-21 20:51:00.000,603,night,14.4,not predominantly agricultural,0.282,0.104,False
+217663,Belmonte Mezzagno,2023-07-23 12:51:00.000,25,day,46.4,near/in agricultural land,0.466,0.489,True
+219517,Belmonte Mezzagno,2023-08-26 00:00:00.000,11,night,0.0,not predominantly agricultural,0.419,0.358,True
+219520,Belmonte Mezzagno,2023-08-27 11:53:00.000,194,day,1.5,not predominantly agricultural,0.308,0.434,True
+219522,Misilmeri,2023-08-28 00:13:00.000,175,night,26.4,not predominantly agricultural,0.247,0.245,False
+219532,Belmonte Mezzagno,2023-08-30 00:26:00.000,3,night,50.0,near/in agricultural land,0.402,0.243,False
+221075,Belmonte Mezzagno,2023-09-22 00:43:00.000,122,night,12.4,not predominantly agricultural,0.488,0.444,True
+220873,Santa Cristina Gela,2023-09-18 12:32:00.000,4,day,0.0,not predominantly agricultural,0.341,0.276,False
+235617,Belmonte Mezzagno,2024-07-29 00:00:00.000,2,night,0.0,not predominantly agricultural,0.559,0.461,True
+235616,Belmonte Mezzagno,2024-07-29 11:10:00.000,10,day,22.2,not predominantly agricultural,0.76,0.202,False
+237207,Belmonte Mezzagno,2024-08-08 11:21:00.000,3,day,0.0,not predominantly agricultural,0.636,0.194,False
+279913,Belmonte Mezzagno,2025-08-29 00:00:00.000,2,night,0.0,not predominantly agricultural,0.946,0.138,False
+280308,Santa Cristina Gela,2025-08-28 11:51:00.000,10,day,10.0,not predominantly agricultural,0.856,0.33,False
+275720,Belmonte Mezzagno,2025-07-24 11:06:44.089,12,day,22.2,not predominantly agricultural,0.442,0.397,True
+275721,Santa Cristina Gela,2025-07-25 12:29:00.000,1,day,0.0,not predominantly agricultural,0.783,0.09,False
+275722,Belmonte Mezzagno,2025-07-24 11:06:53.946,1,day,0.0,not predominantly agricultural,0.824,0.176,False
+275736,Misilmeri,2025-07-21 12:04:00.000,4,day,60.0,near/in agricultural land,0.326,0.379,True
+275733,Belmonte Mezzagno,2025-07-24 00:00:00.000,4,night,0.0,not predominantly agricultural,0.55,0.383,True
+275734,Belmonte Mezzagno,2025-07-24 00:00:00.000,10,night,0.0,not predominantly agricultural,0.213,0.366,True
+275735,Belmonte Mezzagno,2025-07-24 00:00:00.000,29,night,19.4,not predominantly agricultural,0.43,0.321,False
+278583,Belmonte Mezzagno,2025-08-13 11:10:00.000,19,day,0.0,not predominantly agricultural,0.454,0.383,True
+278584,Belmonte Mezzagno,2025-08-13 11:34:00.000,4,day,25.0,not predominantly agricultural,0.522,0.493,True
+278585,Belmonte Mezzagno,2025-08-13 00:00:00.000,4,night,0.0,not predominantly agricultural,0.733,0.135,False
+278586,Belmonte Mezzagno,2025-08-13 11:34:00.000,3,day,50.0,near/in agricultural land,0.401,0.343,False
+279632,Belmonte Mezzagno,2025-08-28 11:51:00.000,5,day,33.3,near/in agricultural land,0.778,0.257,False
+279911,Belmonte Mezzagno,2025-08-29 00:00:00.000,12,night,0.0,not predominantly agricultural,0.858,0.313,False
+279912,Belmonte Mezzagno,2025-08-29 00:00:00.000,3,night,0.0,not predominantly agricultural,0.46,0.428,True
+280307,Santa Cristina Gela,2025-09-02 00:16:00.000,215,night,0.9,not predominantly agricultural,0.548,0.637,True
+15110,Sambuca di Sicilia,2018-07-29 00:00:00.000,266,night,39.0,near/in agricultural land,0.613,0.414,True
+51879,Campofiorito,2021-08-04 21:45:00.000,105,night,52.4,near/in agricultural land,0.327,0.189,False
+50515,Caltabellotta,2021-07-12 11:51:00.000,746,day,25.0,not predominantly agricultural,0.427,0.373,True
+26158,Villafrati,2020-05-25 10:46:29.464,38,day,100.0,near/in agricultural land,0.954,0.0,False
+42860,Bolognetta,2020-08-20 09:40:00.000,321,day,26.2,not predominantly agricultural,0.373,0.378,True
+52599,Villafrati,2021-08-07 09:35:00.000,80,day,66.7,near/in agricultural land,0.369,0.259,False
+51915,Bolognetta,2021-08-05 00:33:00.000,46,night,33.3,near/in agricultural land,0.258,0.372,True
+50658,Villafrati,2021-07-15 00:00:00.000,287,night,83.3,near/in agricultural land,0.426,0.303,False
+204033,Bolognetta,2022-06-24 17:05:57.042,7,day,14.3,not predominantly agricultural,0.532,0.237,False
+209438,Bolognetta,2022-08-18 10:17:00.000,815,day,61.0,near/in agricultural land,0.184,0.313,False
+14947,Blufi,2018-06-29 00:00:00.000,46,night,75.6,near/in agricultural land,0.685,0.387,True
+16109,Borgetto,2019-08-07 00:00:00.000,45,night,20.5,not predominantly agricultural,0.557,0.578,True
+41011,Borgetto,2020-07-31 00:18:00.000,177,night,0.0,not predominantly agricultural,0.628,0.283,False
+40618,Monreale,2020-07-22 00:00:00.000,60,night,5.1,not predominantly agricultural,0.87,0.045,False
+42223,Borgetto,2020-08-11 11:10:43.646,5,day,0.0,not predominantly agricultural,0.755,0.414,True
+41120,Borgetto,2020-07-29 12:12:00.000,7,day,0.0,not predominantly agricultural,0.879,0.416,True
+41677,Borgetto,2020-08-04 11:12:00.000,20,day,0.0,not predominantly agricultural,0.521,0.499,True
+42528,Borgetto,2020-08-21 00:24:00.000,12,night,0.0,not predominantly agricultural,0.808,0.287,False
+44372,Monreale,2020-09-24 00:36:00.000,46,night,0.0,not predominantly agricultural,0.463,0.387,True
+46438,Monreale,2021-03-01 11:42:00.000,13,day,0.0,not predominantly agricultural,0.858,0.0,False
+49406,Borgetto,2021-05-22 21:10:00.000,37,night,44.7,near/in agricultural land,0.326,0.455,True
+51711,Borgetto,2021-07-27 12:12:00.000,8,day,12.5,not predominantly agricultural,0.395,0.432,True
+55212,Borgetto,2021-09-16 12:06:00.000,64,day,60.0,near/in agricultural land,0.35,0.212,False
+55213,Borgetto,2021-09-16 00:00:00.000,10,night,30.0,not predominantly agricultural,0.53,0.162,False
+203968,Partinico,2022-06-23 11:17:00.000,25,day,12.0,not predominantly agricultural,0.575,0.216,False
+210142,Borgetto,2022-08-28 00:05:00.000,6,night,0.0,not predominantly agricultural,0.565,0.232,False
+208621,Borgetto,2022-08-03 20:25:00.000,179,night,3.4,not predominantly agricultural,0.296,0.316,False
+221489,Borgetto,2023-09-22 11:17:00.000,783,day,33.8,near/in agricultural land,0.174,0.424,True
+219722,Borgetto,2023-08-23 00:00:00.000,29,night,13.8,not predominantly agricultural,0.559,0.255,False
+217667,Borgetto,2023-07-25 00:03:00.000,820,night,13.9,not predominantly agricultural,0.087,0.466,True
+221488,Borgetto,2023-09-22 00:00:00.000,114,night,61.9,near/in agricultural land,0.348,0.389,True
+234258,Borgetto,2024-07-19 11:21:00.000,22,day,60.9,near/in agricultural land,0.556,0.4,True
+279909,Partinico,2025-08-28 13:10:00.000,85,day,21.4,not predominantly agricultural,0.729,0.409,True
+14497,Caccamo,2018-07-30 00:00:00.000,60,night,5.0,not predominantly agricultural,0.773,0.393,True
+18036,Caccamo,2019-10-23 00:00:00.000,37,night,91.9,near/in agricultural land,0.526,0.329,False
+43374,Caccamo,2020-08-31 11:06:00.000,12,day,60.0,near/in agricultural land,0.776,0.452,True
+42046,Caccamo,2020-08-11 11:30:00.000,18,day,0.0,not predominantly agricultural,0.913,0.201,False
+50183,Caccamo,2021-07-01 00:00:00.000,70,night,75.0,near/in agricultural land,0.296,0.262,False
+52128,Roccapalumba,2021-08-08 10:20:00.000,207,day,55.0,near/in agricultural land,0.276,0.508,True
+52150,Caccamo,2021-08-08 21:20:00.000,191,night,3.1,not predominantly agricultural,0.154,0.185,False
+54727,Caccamo,2021-09-01 12:38:00.000,18,day,68.4,near/in agricultural land,0.697,0.429,True
+54728,Caccamo,2021-09-02 12:17:00.000,25,day,34.8,near/in agricultural land,0.751,0.306,False
+51500,Caccamo,2021-07-24 09:25:00.000,459,day,39.6,near/in agricultural land,0.22,0.074,False
+210634,Termini Imerese,2022-09-16 00:50:00.000,204,night,8.8,not predominantly agricultural,0.507,0.495,True
+199244,Caccamo,2022-04-12 00:43:00.000,7,night,0.0,not predominantly agricultural,0.328,0.346,False
+208622,Caccamo,2022-08-02 10:17:00.000,39,day,0.0,not predominantly agricultural,0.463,0.279,False
+210393,Caccamo,2022-09-10 11:34:00.000,12,day,16.7,not predominantly agricultural,0.477,0.595,True
+220710,Caccamo,2023-09-12 12:44:00.000,19,day,0.0,not predominantly agricultural,0.516,0.391,True
+222979,Caccamo,2023-10-19 09:13:00.000,107,day,2.8,not predominantly agricultural,0.418,0.429,True
+223280,Ciminna,2023-10-23 00:00:00.000,79,night,63.7,near/in agricultural land,0.491,0.345,False
+223281,Ciminna,2023-10-23 00:00:00.000,16,night,0.0,not predominantly agricultural,0.823,0.228,False
+245701,Caccamo,2024-10-06 12:04:00.000,4,day,0.0,not predominantly agricultural,0.48,0.548,True
+16150,Sclafani Bagni,2019-07-07 00:00:00.000,71,night,42.5,near/in agricultural land,0.352,0.367,True
+17046,Caltavuturo,2019-09-14 00:00:00.000,30,night,100.0,near/in agricultural land,0.345,0.451,True
+18613,Caltavuturo,2019-10-01 00:00:00.000,22,night,100.0,near/in agricultural land,0.519,0.402,True
+213652,Caltavuturo,2023-02-24 00:00:00.000,8,night,0.0,not predominantly agricultural,0.771,0.154,False
+223451,Caltavuturo,2023-10-27 11:57:00.000,11,day,54.5,near/in agricultural land,0.447,0.302,False
+223286,Polizzi Generosa,2023-10-20 12:29:00.000,5,day,40.0,near/in agricultural land,0.636,0.382,True
+227893,Caltavuturo,2024-03-30 09:52:00.000,9,day,0.0,not predominantly agricultural,0.429,0.366,True
+230045,Caltavuturo,2024-04-30 00:00:00.000,6,night,0.0,not predominantly agricultural,0.636,0.244,False
+232781,Sclafani Bagni,2024-07-01 11:57:00.000,459,day,84.5,near/in agricultural land,0.275,0.369,True
+244669,Caltavuturo,2024-09-24 11:40:00.000,22,day,73.9,near/in agricultural land,0.681,0.376,True
+234948,Vicari,2024-07-20 12:44:00.000,372,day,98.4,near/in agricultural land,0.333,0.318,False
+51490,Campofiorito,2021-07-28 11:04:00.000,42,day,7.0,not predominantly agricultural,0.551,0.316,False
+18140,Monreale,2019-08-08 00:00:00.000,204,night,46.9,near/in agricultural land,0.283,0.589,True
+209160,Monreale,2022-08-08 20:44:00.000,94,night,19.8,not predominantly agricultural,0.319,0.437,True
+220757,Monreale,2023-09-18 11:42:00.000,106,day,17.6,not predominantly agricultural,0.365,0.542,True
+221080,Camporeale,2023-09-22 11:17:00.000,83,day,77.6,near/in agricultural land,0.236,0.352,True
+275714,Monreale,2025-07-26 00:01:00.000,226,night,49.6,near/in agricultural land,0.129,0.465,True
+210906,Capaci,2022-09-25 12:44:00.000,3,day,0.0,not predominantly agricultural,0.435,0.352,True
+217665,Palermo,2023-07-24 20:00:00.000,1699,night,0.0,not predominantly agricultural,0.094,0.448,True
+222913,Capaci,2023-10-15 11:34:00.000,12,day,41.7,near/in agricultural land,0.824,0.113,False
+13986,Carini,2018-07-16 00:00:00.000,64,night,0.0,not predominantly agricultural,0.461,0.36,True
+16226,Carini,2019-08-13 00:00:00.000,43,night,0.0,not predominantly agricultural,0.788,0.492,True
+16700,Carini,2019-08-08 00:00:00.000,222,night,0.0,not predominantly agricultural,0.88,0.568,True
+26237,Carini,2020-06-04 00:36:00.000,73,night,1.4,not predominantly agricultural,0.668,0.583,True
+51938,Carini,2021-08-05 00:33:00.000,165,night,4.3,not predominantly agricultural,0.213,0.422,True
+211394,Monreale,2022-10-31 12:19:00.000,1,day,0.0,not predominantly agricultural,0.883,0.059,False
+210236,Carini,2022-09-09 00:33:00.000,114,night,20.5,not predominantly agricultural,0.591,0.448,True
+209255,Carini,2022-08-17 00:11:00.000,332,night,0.9,not predominantly agricultural,0.426,0.438,True
+210633,Carini,2022-09-16 11:21:00.000,46,day,0.0,not predominantly agricultural,0.678,0.485,True
+210438,Monreale,2022-09-13 11:28:00.000,3,day,0.0,not predominantly agricultural,0.549,0.345,False
+207201,Monreale,2022-07-22 00:00:00.000,56,night,0.0,not predominantly agricultural,0.398,0.416,True
+221462,Monreale,2023-09-22 12:06:00.000,430,day,0.0,not predominantly agricultural,0.177,0.514,True
+217664,Monreale,2023-07-24 01:09:00.000,2029,night,6.3,not predominantly agricultural,0.126,0.497,True
+221068,Carini,2023-09-21 13:04:00.000,474,day,13.8,not predominantly agricultural,0.183,0.365,True
+217475,Cinisi,2023-07-24 11:42:00.000,605,day,0.3,not predominantly agricultural,0.266,0.52,True
+15098,Castelbuono,2018-06-03 00:00:00.000,29,night,82.8,near/in agricultural land,0.95,0.476,True
+211834,Castelbuono,2023-01-05 11:42:00.000,8,day,12.5,not predominantly agricultural,0.835,0.225,False
+16728,Resuttano,2019-07-08 00:00:00.000,186,night,28.8,not predominantly agricultural,0.484,0.418,True
+16550,Castellana Sicula,2019-07-05 00:00:00.000,89,night,52.7,near/in agricultural land,0.474,0.44,True
+15622,Petralia Sottana,2019-08-10 00:00:00.000,44,night,100.0,near/in agricultural land,0.422,0.484,True
+17298,Petralia Sottana,2019-08-10 00:00:00.000,47,night,100.0,near/in agricultural land,0.464,0.367,True
+17336,Castellana Sicula,2019-09-13 00:00:00.000,72,night,100.0,near/in agricultural land,0.596,0.36,True
+42867,Castellana Sicula,2020-08-28 10:30:00.000,366,day,75.7,near/in agricultural land,0.226,0.318,False
+43091,Castellana Sicula,2020-08-29 09:35:00.000,46,day,45.8,near/in agricultural land,0.492,0.339,False
+51740,Resuttano,2021-08-02 09:33:06.480,108,day,20.9,not predominantly agricultural,0.343,0.354,True
+210359,Resuttano,2022-09-07 00:18:00.000,67,night,22.9,not predominantly agricultural,0.574,0.298,False
+210675,Castellana Sicula,2022-09-18 01:05:00.000,40,night,50.0,near/in agricultural land,0.279,0.372,True
+221089,Resuttano,2023-09-22 12:06:00.000,142,day,21.3,not predominantly agricultural,0.454,0.397,True
+222181,Castellana Sicula,2023-10-03 12:00:00.000,31,day,90.6,near/in agricultural land,0.493,0.4,True
+223359,Castellana Sicula,2023-10-10 11:28:00.000,63,day,30.2,near/in agricultural land,0.255,0.591,True
+217707,Polizzi Generosa,2023-07-25 09:39:00.000,44,day,33.3,near/in agricultural land,0.305,0.296,False
+223180,Castellana Sicula,2023-10-20 09:54:00.000,102,day,62.0,near/in agricultural land,0.242,0.411,True
+278609,Petralia Sottana,2025-08-13 12:25:00.000,90,day,71.4,near/in agricultural land,0.591,0.476,True
+280884,Castellana Sicula,2025-09-07 09:05:00.000,130,day,88.5,near/in agricultural land,0.396,0.366,True
+14882,Vicari,2018-07-21 00:00:00.000,98,night,62.9,near/in agricultural land,0.595,0.405,True
+15101,Castronovo di Sicilia,2018-07-23 00:00:00.000,67,night,13.8,not predominantly agricultural,0.567,0.447,True
+15348,Castronovo di Sicilia,2018-07-23 00:00:00.000,119,night,38.8,near/in agricultural land,0.634,0.395,True
+16732,Cammarata,2019-09-10 00:00:00.000,132,night,100.0,near/in agricultural land,0.351,0.472,True
+17765,Cammarata,2019-10-21 00:00:00.000,87,night,100.0,near/in agricultural land,0.483,0.413,True
+26270,Castronovo di Sicilia,2020-05-16 12:00:00.000,18,day,11.1,not predominantly agricultural,0.774,0.394,True
+44721,Cammarata,2020-10-09 15:05:38.513,30,day,100.0,near/in agricultural land,0.931,0.067,False
+51497,Castronovo di Sicilia,2021-07-27 00:50:00.000,140,night,12.1,not predominantly agricultural,0.611,0.351,True
+51498,Castronovo di Sicilia,2021-07-27 00:01:00.000,279,night,83.2,near/in agricultural land,0.243,0.368,True
+53116,Lercara Friddi,2021-08-15 12:05:00.000,682,day,45.4,near/in agricultural land,0.56,0.366,True
+210394,Cammarata,2022-09-10 12:23:00.000,167,day,85.2,near/in agricultural land,0.456,0.377,True
+219286,Prizzi,2023-08-25 09:28:00.000,44,day,67.4,near/in agricultural land,0.4,0.427,True
+280841,Castronovo di Sicilia,2025-08-28 00:07:00.000,7,night,71.4,near/in agricultural land,0.29,0.34,False
+221084,Gratteri,2023-09-21 20:51:00.000,2823,night,48.0,near/in agricultural land,0.332,0.237,False
+217551,Gratteri,2023-07-25 00:03:00.000,1450,night,39.4,near/in agricultural land,0.06,0.397,True
+223283,Cefalù,2023-10-23 00:00:00.000,28,night,0.0,not predominantly agricultural,0.496,0.335,False
+46848,Collesano,2021-03-13 11:18:00.000,11,day,0.0,not predominantly agricultural,0.948,0.0,False
+217668,Cerda,2023-07-25 11:21:00.000,487,day,82.0,near/in agricultural land,0.249,0.409,True
+221085,Collesano,2023-09-23 00:26:00.000,35,night,0.0,not predominantly agricultural,0.705,0.589,True
+231052,Collesano,2024-05-15 00:00:00.000,35,night,0.0,not predominantly agricultural,0.438,0.338,False
+17363,Burgio,2019-07-13 00:00:00.000,54,night,70.9,near/in agricultural land,0.487,0.471,True
+40673,Palazzo Adriano,2020-07-24 21:00:00.000,49,night,0.0,not predominantly agricultural,0.487,0.224,False
+40671,Chiusa Sclafani,2020-07-25 11:00:00.000,141,day,0.0,not predominantly agricultural,0.428,0.194,False
+19353,Chiusa Sclafani,2020-01-10 00:00:00.000,22,night,0.0,not predominantly agricultural,0.463,0.447,True
+25100,Chiusa Sclafani,2020-05-17 00:00:00.000,65,night,10.6,not predominantly agricultural,0.338,0.288,False
+40670,Burgio,2020-07-24 00:48:00.000,231,night,4.9,not predominantly agricultural,0.505,0.202,False
+41119,Giuliana,2020-08-02 11:48:00.000,200,day,74.4,near/in agricultural land,0.421,0.522,True
+49532,Chiusa Sclafani,2021-05-30 11:08:00.000,5,day,0.0,not predominantly agricultural,0.515,0.283,False
+49395,Burgio,2021-05-15 10:59:57.022,107,day,0.0,not predominantly agricultural,0.288,0.361,True
+49526,Palazzo Adriano,2021-05-23 23:54:00.000,18,night,0.0,not predominantly agricultural,0.576,0.316,False
+51032,Burgio,2021-07-25 21:10:00.000,258,night,23.7,not predominantly agricultural,0.357,0.191,False
+210631,Chiusa Sclafani,2022-09-18 09:32:00.000,284,day,73.0,near/in agricultural land,0.35,0.294,False
+211107,Palazzo Adriano,2022-09-22 01:28:00.000,77,night,0.0,not predominantly agricultural,0.532,0.503,True
+219158,Burgio,2023-08-20 20:23:00.000,165,night,13.9,not predominantly agricultural,0.588,0.342,False
+280314,Chiusa Sclafani,2025-08-30 19:47:00.000,4,night,0.0,not predominantly agricultural,0.835,0.27,False
+280315,Chiusa Sclafani,2025-08-30 19:47:00.000,1,night,0.0,not predominantly agricultural,0.546,0.322,False
+280316,Chiusa Sclafani,2025-08-30 19:47:00.000,1,night,0.0,not predominantly agricultural,0.559,0.186,False
+278352,Chiusa Sclafani,2025-08-13 00:00:00.000,29,night,82.8,near/in agricultural land,0.42,0.47,True
+278694,Chiusa Sclafani,2025-08-12 12:44:00.000,54,day,70.2,near/in agricultural land,0.602,0.417,True
+272452,Chiusa Sclafani,2025-06-25 00:07:00.000,29,night,0.0,not predominantly agricultural,0.449,0.287,False
+278169,Palazzo Adriano,2025-08-09 00:00:00.000,26,night,72.0,near/in agricultural land,0.784,0.568,True
+44156,Ciminna,2020-09-11 11:48:00.000,40,day,100.0,near/in agricultural land,0.848,0.358,True
+210439,Ciminna,2022-09-10 12:23:00.000,3,day,50.0,near/in agricultural land,0.3,0.393,True
+223279,Ciminna,2023-10-23 12:21:00.000,107,day,79.2,near/in agricultural land,0.346,0.35,False
+52120,Scillato,2021-07-30 11:17:00.000,2604,day,23.6,not predominantly agricultural,0.196,0.435,True
+49297,Collesano,2021-05-14 11:54:00.000,3,day,0.0,not predominantly agricultural,0.75,0.235,False
+49298,Collesano,2021-05-14 00:00:00.000,2,night,0.0,not predominantly agricultural,0.779,0.208,False
+52119,Collesano,2021-08-01 10:10:00.000,484,day,23.9,not predominantly agricultural,0.186,0.319,False
+217061,Collesano,2023-07-09 12:14:00.000,2,day,0.0,not predominantly agricultural,0.785,0.345,False
+229825,Collesano,2024-04-21 12:32:00.000,2,day,0.0,not predominantly agricultural,0.568,0.228,False
+42563,Poggioreale,2020-08-09 11:18:00.000,126,day,57.9,near/in agricultural land,0.443,0.354,True
+42820,Contessa Entellina,2020-08-27 11:30:00.000,231,day,64.7,near/in agricultural land,0.585,0.336,False
+44678,Contessa Entellina,2020-10-03 23:54:00.000,52,night,3.7,not predominantly agricultural,0.3,0.538,True
+55619,Contessa Entellina,2021-09-30 12:20:00.000,47,day,12.8,not predominantly agricultural,0.476,0.498,True
+55536,Sambuca di Sicilia,2021-09-23 12:15:00.000,109,day,62.0,near/in agricultural land,0.133,0.504,True
+220758,Contessa Entellina,2023-09-19 01:41:00.000,268,night,94.5,near/in agricultural land,0.229,0.275,False
+221081,Contessa Entellina,2023-09-21 20:51:00.000,410,night,74.6,near/in agricultural land,0.225,0.471,True
+220466,Monreale,2023-08-27 11:53:00.000,393,day,80.5,near/in agricultural land,0.208,0.423,True
+219718,Poggioreale,2023-08-31 11:28:00.000,67,day,7.6,not predominantly agricultural,0.583,0.462,True
+220253,Poggioreale,2023-08-31 12:19:00.000,14,day,33.3,near/in agricultural land,0.618,0.573,True
+222602,Poggioreale,2023-10-12 11:40:00.000,182,day,26.8,not predominantly agricultural,0.293,0.349,False
+222973,Contessa Entellina,2023-10-15 00:13:00.000,84,night,34.5,near/in agricultural land,0.277,0.355,True
+220415,Poggioreale,2023-08-28 00:13:00.000,82,night,60.0,near/in agricultural land,0.506,0.375,True
+279914,Contessa Entellina,2025-08-28 00:07:00.000,169,night,92.9,near/in agricultural land,0.16,0.351,True
+43002,Corleone,2020-08-17 00:00:00.000,83,night,100.0,near/in agricultural land,0.767,0.34,False
+44679,Corleone,2020-09-25 10:50:00.000,190,day,83.6,near/in agricultural land,0.167,0.3,False
+58848,Prizzi,2022-01-05 00:11:00.000,5,night,0.0,not predominantly agricultural,0.656,0.319,False
+210877,Corleone,2022-09-25 09:39:00.000,315,day,74.9,near/in agricultural land,0.403,0.477,True
+223095,Corleone,2023-10-20 20:57:00.000,139,night,0.0,not predominantly agricultural,0.555,0.527,True
+222331,Corleone,2023-10-05 12:12:00.000,73,day,27.8,not predominantly agricultural,0.51,0.385,True
+222332,Monreale,2023-10-05 11:21:00.000,61,day,81.0,near/in agricultural land,0.313,0.294,False
+15778,Gangi,2019-09-12 00:00:00.000,48,night,58.8,near/in agricultural land,0.592,0.447,True
+52155,San Mauro Castelverde,2021-08-04 11:21:00.000,9778,day,47.7,near/in agricultural land,0.393,0.622,True
+225335,Gangi,2024-02-06 11:46:00.000,4,day,0.0,not predominantly agricultural,0.471,0.179,False
+278781,Gangi,2025-08-19 00:00:00.000,75,night,19.0,not predominantly agricultural,0.625,0.419,True
+52171,Geraci Siculo,2021-08-10 20:10:00.000,1950,night,27.1,not predominantly agricultural,0.204,0.556,True
+49533,Geraci Siculo,2021-05-22 11:57:00.000,3,day,0.0,not predominantly agricultural,0.598,0.299,False
+215223,Geraci Siculo,2023-03-28 00:00:00.000,5,night,0.0,not predominantly agricultural,0.62,0.353,True
+215222,Geraci Siculo,2023-03-28 11:04:00.000,2,day,50.0,near/in agricultural land,0.477,0.189,False
+18226,Montelepre,2019-10-23 00:00:00.000,23,night,23.8,not predominantly agricultural,0.594,0.44,True
+44588,Giardinello,2020-10-03 00:18:00.000,10,night,0.0,not predominantly agricultural,0.812,0.098,False
+43150,Giardinello,2020-08-29 11:42:00.000,7,day,0.0,not predominantly agricultural,0.551,0.411,True
+52344,Monreale,2021-08-10 21:10:00.000,165,night,14.4,not predominantly agricultural,0.378,0.251,False
+210202,Giardinello,2022-09-04 00:00:00.000,16,night,0.0,not predominantly agricultural,0.378,0.416,True
+209360,Montelepre,2022-08-18 10:17:00.000,44,day,57.1,near/in agricultural land,0.583,0.408,True
+211296,Montelepre,2022-10-25 00:18:00.000,23,night,0.0,not predominantly agricultural,0.561,0.618,True
+216564,Giardinello,2023-05-28 00:39:00.000,2,night,0.0,not predominantly agricultural,0.836,0.374,True
+241535,Giardinello,2024-09-04 11:17:00.000,7,day,0.0,not predominantly agricultural,0.594,0.348,False
+210992,Cefalù,2022-10-05 00:45:00.000,12,night,0.0,not predominantly agricultural,0.483,0.264,False
+25068,Isnello,2020-03-12 00:00:00.000,37,night,54.1,near/in agricultural land,0.586,0.208,False
+51035,Isnello,2021-07-25 00:37:00.000,6,night,0.0,not predominantly agricultural,0.802,0.435,True
+219826,Isnello,2023-09-02 00:00:00.000,7,night,12.5,not predominantly agricultural,0.705,0.162,False
+224246,Isnello,2024-01-03 00:13:00.000,2,night,0.0,not predominantly agricultural,0.636,0.301,False
+225798,Isnello,2024-02-07 00:05:00.000,25,night,37.5,near/in agricultural land,0.558,0.348,False
+18177,Marineo,2019-08-12 00:00:00.000,37,night,100.0,near/in agricultural land,0.814,0.46,True
+43059,Misilmeri,2020-08-30 11:24:00.000,90,day,23.1,not predominantly agricultural,0.725,0.547,True
+25094,Santa Cristina Gela,2020-05-17 00:00:00.000,107,night,26.6,not predominantly agricultural,0.457,0.351,True
+41280,Marineo,2020-08-01 00:48:00.000,79,night,53.7,near/in agricultural land,0.263,0.034,False
+44155,Misilmeri,2020-09-18 11:18:00.000,8,day,14.3,not predominantly agricultural,0.938,0.154,False
+51299,Piana degli Albanesi,2021-07-29 09:40:00.000,2867,day,89.1,near/in agricultural land,0.171,0.325,False
+50088,Misilmeri,2021-06-27 11:34:00.000,12,day,0.0,not predominantly agricultural,0.561,0.469,True
+221500,Santa Cristina Gela,2023-09-22 19:55:00.000,326,night,89.1,near/in agricultural land,0.308,0.304,False
+285515,Marineo,2025-10-22 00:00:00.000,4,night,0.0,not predominantly agricultural,0.781,0.189,False
+279096,Marineo,2025-08-21 01:02:00.000,38,night,29.4,not predominantly agricultural,0.419,0.258,False
+204165,Mezzojuso,2022-06-28 00:01:00.000,179,night,11.7,not predominantly agricultural,0.408,0.346,False
+219932,Mezzojuso,2023-09-03 12:12:00.000,10,day,0.0,not predominantly agricultural,0.322,0.4,True
+14654,Misilmeri,2018-09-01 00:00:00.000,34,night,2.9,not predominantly agricultural,0.698,0.365,True
+16245,Misilmeri,2019-06-30 00:00:00.000,23,night,52.2,near/in agricultural land,0.437,0.408,True
+42224,Misilmeri,2020-08-20 09:40:00.000,39,day,10.0,not predominantly agricultural,0.727,0.429,True
+40973,Misilmeri,2020-07-23 11:36:00.000,16,day,0.0,not predominantly agricultural,0.663,0.315,False
+42362,Misilmeri,2020-08-23 11:06:00.000,196,day,0.0,not predominantly agricultural,0.632,0.483,True
+51477,Misilmeri,2021-07-30 10:25:00.000,151,day,2.7,not predominantly agricultural,0.534,0.218,False
+51502,Misilmeri,2021-07-30 11:17:00.000,39,day,38.5,near/in agricultural land,0.776,0.449,True
+205329,Misilmeri,2022-07-07 11:51:00.000,4,day,0.0,not predominantly agricultural,0.671,0.141,False
+203880,Misilmeri,2022-06-21 11:51:00.000,18,day,0.0,not predominantly agricultural,0.267,0.363,True
+206920,Misilmeri,2022-07-23 11:53:00.000,163,day,1.2,not predominantly agricultural,0.351,0.449,True
+218643,Misilmeri,2023-08-14 10:58:00.000,27,day,3.4,not predominantly agricultural,0.638,0.395,True
+221076,Misilmeri,2023-09-22 00:43:00.000,274,night,26.6,not predominantly agricultural,0.331,0.541,True
+278426,Misilmeri,2025-08-10 11:40:00.000,64,day,18.2,not predominantly agricultural,0.472,0.443,True
+15946,Monreale,2019-10-02 00:00:00.000,50,night,100.0,near/in agricultural land,0.136,0.324,False
+15864,Monreale,2019-08-12 00:00:00.000,21,night,9.1,not predominantly agricultural,0.693,0.354,True
+16902,Monreale,2019-08-03 00:00:00.000,61,night,1.6,not predominantly agricultural,0.83,0.37,True
+17873,Santa Cristina Gela,2019-09-08 00:00:00.000,70,night,0.0,not predominantly agricultural,0.712,0.355,True
+40274,Monreale,2020-06-30 11:18:00.000,32,day,100.0,near/in agricultural land,0.396,0.36,True
+40593,Monreale,2020-07-20 10:20:00.000,212,day,100.0,near/in agricultural land,0.145,0.163,False
+42066,Monreale,2020-08-17 13:00:00.000,96,day,0.0,not predominantly agricultural,0.614,0.454,True
+42220,Monreale,2020-08-17 13:00:00.000,4,day,0.0,not predominantly agricultural,0.554,0.129,False
+42221,Monreale,2020-08-17 11:18:00.000,13,day,0.0,not predominantly agricultural,0.619,0.322,False
+26266,Partinico,2020-06-04 12:48:00.000,24,day,8.7,not predominantly agricultural,0.875,0.427,True
+26267,Monreale,2020-05-12 11:36:00.000,9,day,33.3,near/in agricultural land,0.961,0.074,False
+41279,Monreale,2020-08-01 11:18:00.000,24,day,50.0,near/in agricultural land,0.8,0.26,False
+41953,Partinico,2020-08-11 12:24:00.000,8,day,50.0,near/in agricultural land,0.435,0.394,True
+41954,Monreale,2020-08-12 10:30:00.000,23,day,100.0,near/in agricultural land,0.358,0.387,True
+42044,Monreale,2020-08-14 21:20:00.000,51,night,0.0,not predominantly agricultural,0.566,0.513,True
+42045,Monreale,2020-08-14 21:20:00.000,37,night,0.0,not predominantly agricultural,0.414,0.207,False
+42529,Partinico,2020-08-20 12:00:00.000,4,day,0.0,not predominantly agricultural,0.871,0.175,False
+42858,San Giuseppe Jato,2020-08-30 00:06:00.000,100,night,1.0,not predominantly agricultural,0.211,0.594,True
+43057,Monreale,2020-08-30 13:06:00.000,80,day,0.0,not predominantly agricultural,0.749,0.274,False
+44587,Monreale,2020-09-24 10:10:00.000,95,day,53.2,near/in agricultural land,0.194,0.361,True
+44735,Monreale,2020-10-03 10:05:00.000,51,day,0.0,not predominantly agricultural,0.56,0.46,True
+44922,Monreale,2020-10-11 11:36:00.000,12,day,0.0,not predominantly agricultural,0.412,0.403,True
+40844,Santa Cristina Gela,2020-07-23 11:36:00.000,59,day,3.5,not predominantly agricultural,0.506,0.23,False
+51400,Monreale,2021-07-30 11:17:00.000,160,day,18.7,not predominantly agricultural,0.397,0.193,False
+46608,Monreale,2021-02-28 00:42:00.000,44,night,0.0,not predominantly agricultural,0.531,0.417,True
+49394,Monreale,2021-05-20 02:00:00.000,46,night,4.3,not predominantly agricultural,0.732,0.309,False
+54867,Monreale,2021-08-15 00:00:00.000,41,night,21.4,not predominantly agricultural,0.679,0.447,True
+52126,Monreale,2021-08-01 14:46:25.340,46,day,6.4,not predominantly agricultural,0.721,0.476,True
+52737,Monreale,2021-08-10 11:10:00.000,11,day,0.0,not predominantly agricultural,0.536,0.19,False
+53035,Monreale,2021-08-14 09:40:00.000,76,day,67.6,near/in agricultural land,0.436,0.289,False
+54174,Monreale,2021-08-22 11:34:00.000,28,day,37.9,near/in agricultural land,0.652,0.202,False
+54545,Monreale,2021-08-27 11:40:00.000,18,day,94.4,near/in agricultural land,0.222,0.347,False
+208846,Monreale,2022-08-05 11:57:00.000,21,day,30.4,near/in agricultural land,0.953,0.211,False
+209434,Monreale,2022-08-18 00:00:00.000,64,night,27.9,not predominantly agricultural,0.414,0.179,False
+201271,Monreale,2022-05-05 23:54:00.000,81,night,1.3,not predominantly agricultural,0.27,0.252,False
+202790,Monreale,2022-05-24 12:19:00.000,43,day,11.9,not predominantly agricultural,0.211,0.31,False
+202791,Monreale,2022-05-24 12:19:00.000,5,day,0.0,not predominantly agricultural,0.629,0.375,True
+204032,Monreale,2022-06-25 00:56:00.000,5,night,0.0,not predominantly agricultural,0.495,0.345,False
+204371,Monreale,2022-06-28 12:12:00.000,163,day,25.6,not predominantly agricultural,0.33,0.393,True
+206918,Monreale,2022-07-25 11:17:00.000,70,day,55.9,near/in agricultural land,0.329,0.369,True
+210832,Monreale,2022-09-21 12:17:00.000,23,day,72.7,near/in agricultural land,0.474,0.424,True
+206060,Partinico,2022-07-14 11:21:00.000,56,day,22.4,not predominantly agricultural,0.115,0.345,False
+208382,Piana degli Albanesi,2022-08-04 00:56:00.000,407,night,50.1,near/in agricultural land,0.166,0.285,False
+203144,Monreale,2022-06-08 00:00:00.000,13,night,0.0,not predominantly agricultural,0.289,0.246,False
+210358,Monreale,2022-09-09 12:38:00.000,42,day,0.0,not predominantly agricultural,0.328,0.19,False
+209349,Monreale,2022-08-18 11:15:00.000,694,day,31.2,near/in agricultural land,0.159,0.449,True
+209498,Monreale,2022-08-18 12:55:00.000,223,day,53.1,near/in agricultural land,0.266,0.412,True
+221492,Monreale,2023-09-23 00:00:00.000,17,night,0.0,not predominantly agricultural,0.823,0.509,True
+216803,Partinico,2023-06-22 12:32:00.000,7,day,62.5,near/in agricultural land,0.417,0.364,True
+219723,Monreale,2023-08-31 12:19:00.000,8,day,28.6,not predominantly agricultural,0.585,0.37,True
+219721,Monreale,2023-08-27 11:04:00.000,2,day,0.0,not predominantly agricultural,0.567,0.4,True
+217317,Monreale,2023-07-18 00:33:00.000,3,night,0.0,not predominantly agricultural,0.323,0.491,True
+217653,Monreale,2023-07-24 12:32:00.000,425,day,12.6,not predominantly agricultural,0.586,0.465,True
+217654,Piana degli Albanesi,2023-07-24 12:32:00.000,258,day,18.0,not predominantly agricultural,0.393,0.491,True
+217655,Piana degli Albanesi,2023-07-25 00:03:00.000,175,night,7.4,not predominantly agricultural,0.531,0.324,False
+217652,Partinico,2023-07-24 20:00:00.000,131,night,20.8,not predominantly agricultural,0.17,0.366,True
+218439,Monreale,2023-07-31 11:10:00.000,8,day,0.0,not predominantly agricultural,0.617,0.27,False
+221073,Monreale,2023-09-23 00:26:00.000,55,night,50.0,near/in agricultural land,0.44,0.378,True
+221079,Monreale,2023-09-19 11:21:00.000,86,day,67.0,near/in agricultural land,0.277,0.378,True
+219521,Santa Cristina Gela,2023-08-27 00:00:00.000,10,night,0.0,not predominantly agricultural,0.676,0.222,False
+219204,Monreale,2023-08-23 11:28:00.000,142,day,77.7,near/in agricultural land,0.132,0.337,False
+219386,San Giuseppe Jato,2023-08-28 00:13:00.000,99,night,1.0,not predominantly agricultural,0.25,0.481,True
+219385,Monreale,2023-08-26 13:04:00.000,11,day,0.0,not predominantly agricultural,0.427,0.271,False
+220465,Monreale,2023-09-11 11:21:00.000,5,day,0.0,not predominantly agricultural,0.48,0.409,True
+221490,Monreale,2023-09-23 00:00:00.000,10,night,0.0,not predominantly agricultural,0.778,0.341,False
+221491,Monreale,2023-09-23 00:00:00.000,208,night,0.0,not predominantly agricultural,0.392,0.373,True
+222540,Monreale,2023-10-12 12:32:00.000,56,day,14.3,not predominantly agricultural,0.237,0.412,True
+217862,Monreale,2023-07-24 01:09:00.000,17,night,33.3,near/in agricultural land,0.652,0.474,True
+241533,Partinico,2024-09-07 12:49:00.000,38,day,78.4,near/in agricultural land,0.158,0.27,False
+231270,Terrasini,2024-06-08 11:17:00.000,6,day,12.5,not predominantly agricultural,0.341,0.258,False
+233360,Monreale,2024-07-10 12:55:00.000,102,day,21.3,not predominantly agricultural,0.165,0.341,False
+239095,Santa Cristina Gela,2024-08-18 00:13:00.000,76,night,10.7,not predominantly agricultural,0.607,0.341,False
+275089,Partinico,2025-07-19 00:58:00.000,257,night,46.5,near/in agricultural land,0.102,0.257,False
+281279,Monreale,2025-09-13 11:51:00.000,1,day,0.0,not predominantly agricultural,0.546,0.252,False
+271249,Monreale,2025-06-08 11:21:00.000,2,day,0.0,not predominantly agricultural,0.253,0.141,False
+275944,Monreale,2025-07-24 00:37:00.000,3,night,0.0,not predominantly agricultural,0.335,0.354,True
+275088,Partinico,2025-07-17 12:32:00.000,2,day,50.0,near/in agricultural land,0.391,0.265,False
+275716,Santa Cristina Gela,2025-07-25 11:40:00.000,31,day,59.4,near/in agricultural land,0.224,0.341,False
+275731,Piana degli Albanesi,2025-07-26 00:28:00.000,517,night,21.1,not predominantly agricultural,0.257,0.375,True
+281708,Monreale,2025-09-18 11:10:00.000,5,day,0.0,not predominantly agricultural,0.701,0.346,False
+278693,Monreale,2025-08-14 00:43:00.000,7,night,0.0,not predominantly agricultural,0.444,0.47,True
+279908,Partinico,2025-08-29 11:13:00.000,42,day,14.6,not predominantly agricultural,0.235,0.304,False
+280708,Monreale,2025-09-01 11:55:00.000,2,day,0.0,not predominantly agricultural,0.787,0.202,False
+280707,Monreale,2025-09-01 11:55:00.000,1,day,0.0,not predominantly agricultural,0.872,0.409,True
+280313,Piana degli Albanesi,2025-09-01 19:30:00.000,264,night,60.2,near/in agricultural land,0.156,0.362,True
+42176,Montemaggiore Belsito,2020-08-16 10:05:00.000,315,day,25.5,not predominantly agricultural,0.404,0.261,False
+42038,Montemaggiore Belsito,2020-08-16 10:05:00.000,241,day,39.8,near/in agricultural land,0.528,0.48,True
+51499,Sclafani Bagni,2021-07-26 11:40:00.000,345,day,25.9,not predominantly agricultural,0.326,0.349,False
+221086,Montemaggiore Belsito,2023-09-22 19:55:00.000,47,night,0.0,not predominantly agricultural,0.756,0.334,False
+221087,Montemaggiore Belsito,2023-09-23 00:26:00.000,28,night,0.0,not predominantly agricultural,0.299,0.328,False
+14891,Bivona,2018-09-17 00:00:00.000,35,night,52.9,near/in agricultural land,0.889,0.446,True
+44582,Bivona,2020-09-24 11:54:00.000,24,day,32.0,near/in agricultural land,0.552,0.218,False
+43003,Palazzo Adriano,2020-08-21 00:00:00.000,127,night,100.0,near/in agricultural land,0.249,0.361,True
+44583,Palazzo Adriano,2020-10-04 00:48:00.000,51,night,100.0,near/in agricultural land,0.351,0.27,False
+40672,Prizzi,2020-07-24 21:00:00.000,103,night,7.8,not predominantly agricultural,0.539,0.196,False
+26352,Bivona,2020-06-14 11:18:00.000,16,day,16.7,not predominantly agricultural,0.676,0.196,False
+42225,Palazzo Adriano,2020-08-19 23:48:00.000,109,night,41.4,near/in agricultural land,0.37,0.341,False
+51305,Prizzi,2021-07-29 11:25:00.000,1054,day,22.6,not predominantly agricultural,0.414,0.549,True
+52526,Bivona,2021-08-05 11:04:00.000,262,day,28.6,not predominantly agricultural,0.307,0.238,False
+210111,Palazzo Adriano,2022-09-02 00:11:00.000,57,night,37.9,near/in agricultural land,0.29,0.313,False
+210391,Bivona,2022-09-13 13:08:00.000,3,day,0.0,not predominantly agricultural,0.608,0.46,True
+210473,Alessandria della Rocca,2022-09-13 11:28:00.000,27,day,89.3,near/in agricultural land,0.323,0.242,False
+210240,Bivona,2022-09-09 00:33:00.000,175,night,73.9,near/in agricultural land,0.151,0.388,True
+221082,Prizzi,2023-09-21 09:49:00.000,484,day,54.5,near/in agricultural land,0.324,0.413,True
+219524,Bivona,2023-08-27 11:04:00.000,187,day,64.1,near/in agricultural land,0.242,0.351,True
+222410,Bivona,2023-10-05 13:01:00.000,237,day,78.5,near/in agricultural land,0.447,0.289,False
+224397,Bivona,2024-01-22 12:18:00.000,1,day,0.0,not predominantly agricultural,0.348,0.38,True
+225336,Palazzo Adriano,2024-02-07 00:05:00.000,17,night,0.0,not predominantly agricultural,0.426,0.346,False
+246126,Bivona,2024-10-11 13:01:00.000,54,day,17.6,not predominantly agricultural,0.273,0.387,True
+240496,Palazzo Adriano,2024-08-30 00:00:00.000,5,night,0.0,not predominantly agricultural,0.735,0.311,False
+238760,Palazzo Adriano,2024-07-22 00:00:00.000,9,night,0.0,not predominantly agricultural,0.548,0.255,False
+240754,Bivona,2024-09-02 00:33:00.000,182,night,65.0,near/in agricultural land,0.315,0.421,True
+251140,Palazzo Adriano,2024-12-29 11:42:00.000,1,day,0.0,not predominantly agricultural,0.454,0.422,True
+275738,Palazzo Adriano,2025-07-27 00:07:00.000,93,night,80.0,near/in agricultural land,0.112,0.318,False
+277689,Bivona,2025-08-09 00:00:00.000,114,night,75.7,near/in agricultural land,0.17,0.359,True
+281536,Bivona,2025-09-16 00:26:00.000,38,night,7.9,not predominantly agricultural,0.276,0.272,False
+283089,Bivona,2025-10-06 11:00:00.000,49,day,51.1,near/in agricultural land,0.488,0.273,False
+17041,Palermo,2019-06-28 00:00:00.000,83,night,0.0,not predominantly agricultural,0.512,0.386,True
+15143,Palermo,2019-07-10 00:00:00.000,74,night,0.0,not predominantly agricultural,0.386,0.36,True
+19927,Palermo,2020-02-26 00:00:00.000,88,night,0.0,not predominantly agricultural,0.412,0.413,True
+25710,Palermo,2020-05-14 00:00:00.000,356,night,0.0,not predominantly agricultural,0.335,0.487,True
+26268,Palermo,2020-06-04 12:48:00.000,44,day,2.3,not predominantly agricultural,0.812,0.401,True
+42222,Palermo,2020-08-18 12:42:00.000,7,day,0.0,not predominantly agricultural,0.928,0.288,False
+41678,Palermo,2020-08-10 11:00:00.000,44,day,0.0,not predominantly agricultural,0.778,0.126,False
+43673,Palermo,2020-09-05 20:45:00.000,48,night,0.0,not predominantly agricultural,0.673,0.42,True
+54176,Palermo,2021-08-09 00:58:00.000,4,night,0.0,not predominantly agricultural,0.687,0.395,True
+207466,Palermo,2022-07-28 09:58:00.000,48,day,0.0,not predominantly agricultural,0.484,0.354,True
+209495,Palermo,2022-08-18 12:55:00.000,32,day,0.0,not predominantly agricultural,0.195,0.36,True
+209494,Palermo,2022-08-19 01:15:00.000,39,night,0.0,not predominantly agricultural,0.165,0.387,True
+221464,Torretta,2023-09-22 11:17:00.000,325,day,10.2,not predominantly agricultural,0.121,0.416,True
+218737,Palermo,2023-08-15 00:07:00.000,16,night,0.0,not predominantly agricultural,0.874,0.492,True
+222333,Palermo,2023-10-05 13:01:00.000,17,day,0.0,not predominantly agricultural,0.778,0.283,False
+217666,Palermo,2023-07-25 00:03:00.000,655,night,0.0,not predominantly agricultural,0.559,0.536,True
+217861,Palermo,2023-07-25 00:00:00.000,16,night,0.0,not predominantly agricultural,0.781,0.218,False
+241534,Partinico,2024-09-07 00:00:00.000,15,night,7.1,not predominantly agricultural,0.367,0.554,True
+41082,Petralia Sottana,2020-07-31 10:05:00.000,234,day,62.4,near/in agricultural land,0.261,0.575,True
+14313,Santa Caterina Villarmosa,2018-07-22 00:00:00.000,45,night,82.6,near/in agricultural land,0.753,0.347,False
+18649,Scillato,2019-12-17 00:00:00.000,21,night,0.0,not predominantly agricultural,0.367,0.386,True
+42228,Petralia Sottana,2020-08-18 12:42:00.000,52,day,46.9,near/in agricultural land,0.591,0.221,False
+41691,Petralia Sottana,2020-08-08 11:36:00.000,36,day,34.2,near/in agricultural land,0.403,0.416,True
+44386,Petralia Sottana,2020-09-21 00:42:00.000,156,night,31.8,near/in agricultural land,0.299,0.517,True
+51738,Petralia Sottana,2021-07-30 12:06:00.000,12,day,7.7,not predominantly agricultural,0.381,0.259,False
+210402,Blufi,2022-09-12 10:58:00.000,66,day,35.3,near/in agricultural land,0.479,0.181,False
+211006,Petralia Sottana,2022-10-06 11:49:00.000,27,day,11.1,not predominantly agricultural,0.554,0.328,False
+210625,Petralia Sottana,2022-09-16 00:50:00.000,438,night,25.7,not predominantly agricultural,0.293,0.356,True
+213651,Scillato,2023-02-24 11:51:00.000,26,day,0.0,not predominantly agricultural,0.408,0.228,False
+223452,Petralia Sottana,2023-10-29 12:12:00.000,73,day,0.0,not predominantly agricultural,0.465,0.402,True
+220516,Petralia Sottana,2023-09-14 12:55:00.000,51,day,39.2,near/in agricultural land,0.212,0.376,True
+238336,Polizzi Generosa,2024-08-19 11:17:00.000,32,day,100.0,near/in agricultural land,0.522,0.29,False
+245700,Polizzi Generosa,2024-10-06 11:17:00.000,10,day,11.1,not predominantly agricultural,0.608,0.141,False
+280335,Petralia Sottana,2025-08-28 11:04:00.000,184,day,84.1,near/in agricultural land,0.438,0.418,True
+276526,Piana degli Albanesi,2025-08-01 11:57:00.000,48,day,78.0,near/in agricultural land,0.409,0.432,True
+18899,Polizzi Generosa,2019-07-05 00:00:00.000,24,night,100.0,near/in agricultural land,0.448,0.414,True
+15573,Polizzi Generosa,2019-09-14 00:00:00.000,50,night,62.7,near/in agricultural land,0.739,0.328,False
+43373,Polizzi Generosa,2020-09-01 15:47:52.043,31,day,25.8,not predominantly agricultural,0.635,0.135,False
+204988,Polizzi Generosa,2022-07-06 00:01:00.000,876,night,92.3,near/in agricultural land,0.209,0.445,True
+208683,Polizzi Generosa,2022-08-04 12:19:00.000,4,day,0.0,not predominantly agricultural,0.919,0.237,False
+223881,Polizzi Generosa,2023-11-16 12:23:00.000,132,day,57.9,near/in agricultural land,0.717,0.382,True
+222409,Polizzi Generosa,2023-10-07 12:51:00.000,29,day,0.0,not predominantly agricultural,0.574,0.102,False
+221083,Prizzi,2023-09-20 11:53:00.000,62,day,71.4,near/in agricultural land,0.159,0.281,False
+277965,Prizzi,2025-08-10 11:40:00.000,10,day,8.3,not predominantly agricultural,0.409,0.322,False
+16141,Roccamena,2019-08-10 00:00:00.000,91,night,81.9,near/in agricultural land,0.403,0.49,True
+217121,Roccamena,2023-07-15 12:51:00.000,64,day,57.1,near/in agricultural land,0.193,0.344,False
+40617,San Cipirello,2020-07-24 00:48:00.000,63,night,0.0,not predominantly agricultural,0.686,0.38,True
+44819,San Mauro Castelverde,2020-10-17 10:15:00.000,36,day,0.0,not predominantly agricultural,0.287,0.425,True
+45051,San Mauro Castelverde,2020-10-21 11:48:00.000,10,day,0.0,not predominantly agricultural,0.681,0.3,False
+45949,Tusa,2021-02-05 10:54:00.000,5,day,0.0,not predominantly agricultural,0.612,0.252,False
+46439,San Mauro Castelverde,2021-03-01 01:12:00.000,4,night,0.0,not predominantly agricultural,0.899,0.071,False
+211645,San Mauro Castelverde,2022-11-09 12:50:00.000,11,day,0.0,not predominantly agricultural,0.32,0.283,False
+206086,Tusa,2022-07-12 11:10:00.000,22,day,0.0,not predominantly agricultural,0.488,0.355,True
+213653,San Mauro Castelverde,2023-02-24 00:00:00.000,9,night,0.0,not predominantly agricultural,0.411,0.263,False
+221088,Tusa,2023-09-21 12:25:00.000,145,day,10.4,not predominantly agricultural,0.261,0.341,False
+224041,San Mauro Castelverde,2023-11-07 11:51:00.000,5,day,0.0,not predominantly agricultural,0.353,0.387,True
+224247,San Mauro Castelverde,2024-01-03 11:34:00.000,2,day,0.0,not predominantly agricultural,0.722,0.297,False
+225417,San Mauro Castelverde,2024-02-07 00:58:00.000,3,night,0.0,not predominantly agricultural,0.605,0.278,False
+246129,San Mauro Castelverde,2024-10-08 12:17:00.000,10,day,0.0,not predominantly agricultural,0.904,0.243,False
+246130,San Mauro Castelverde,2024-10-08 12:17:00.000,3,day,0.0,not predominantly agricultural,0.558,0.488,True
+243105,Santa Cristina Gela,2024-09-15 11:10:00.000,57,day,47.4,near/in agricultural land,0.669,0.346,False
+279606,Santa Cristina Gela,2025-08-27 11:21:00.000,187,day,90.4,near/in agricultural land,0.396,0.511,True
+15725,Sciara,2019-08-03 00:00:00.000,220,night,0.0,not predominantly agricultural,0.401,0.528,True
+44589,Sciara,2020-09-26 00:00:00.000,13,night,0.0,not predominantly agricultural,0.488,0.404,True
+41693,Sciara,2020-07-28 00:24:00.000,29,night,0.0,not predominantly agricultural,0.814,0.362,True
+42047,Sciara,2020-08-14 21:20:00.000,14,night,41.7,near/in agricultural land,0.867,0.232,False
+45957,Sciara,2021-02-06 10:35:29.841,13,day,0.0,not predominantly agricultural,0.518,0.476,True
+45958,Sciara,2021-02-06 10:15:00.000,6,day,0.0,not predominantly agricultural,0.838,0.167,False
+202613,Sciara,2022-05-18 11:40:00.000,8,day,71.4,near/in agricultural land,0.428,0.354,True
+222720,Sciara,2023-10-14 00:33:00.000,47,night,0.0,not predominantly agricultural,0.552,0.447,True
+245912,Termini Imerese,2024-10-08 11:02:00.000,7,day,85.7,near/in agricultural land,0.796,0.343,False
+246125,Sciara,2024-10-08 11:02:00.000,85,day,10.6,not predominantly agricultural,0.364,0.401,True
+18679,Sclafani Bagni,2019-10-01 00:00:00.000,33,night,100.0,near/in agricultural land,0.642,0.438,True
+209439,Sclafani Bagni,2022-08-18 00:00:00.000,16,night,7.1,not predominantly agricultural,0.492,0.266,False
+228375,Sclafani Bagni,2024-04-05 11:17:00.000,8,day,0.0,not predominantly agricultural,0.226,0.233,False
+249703,Sclafani Bagni,2024-11-23 12:57:00.000,1,day,0.0,not predominantly agricultural,0.756,0.335,False
+26272,Termini Imerese,2020-06-01 12:00:00.000,14,day,100.0,near/in agricultural land,0.181,0.355,True
+43371,Termini Imerese,2020-08-29 09:30:00.000,8,day,55.6,near/in agricultural land,0.796,0.106,False
+50227,Termini Imerese,2021-07-01 00:00:00.000,5,night,16.7,not predominantly agricultural,0.65,0.405,True
+52216,Termini Imerese,2021-07-30 12:55:00.000,8,day,0.0,not predominantly agricultural,0.659,0.311,False
+50226,Termini Imerese,2021-07-01 11:10:00.000,18,day,88.9,near/in agricultural land,0.162,0.268,False
+210878,Termini Imerese,2022-09-21 12:17:00.000,9,day,0.0,not predominantly agricultural,0.632,0.332,False
+209604,Termini Imerese,2022-08-16 00:00:00.000,22,night,12.5,not predominantly agricultural,0.184,0.311,False
+209605,Termini Imerese,2022-08-16 00:00:00.000,3,night,0.0,not predominantly agricultural,0.726,0.21,False
+223266,Termini Imerese,2023-10-19 20:17:00.000,205,night,58.5,near/in agricultural land,0.594,0.534,True
+219531,Termini Imerese,2023-08-27 12:44:00.000,10,day,40.0,near/in agricultural land,0.347,0.369,True
+217865,Termini Imerese,2023-07-25 09:39:00.000,64,day,0.0,not predominantly agricultural,0.324,0.26,False
+229732,Termini Imerese,2024-04-17 00:00:00.000,6,night,33.3,near/in agricultural land,0.474,0.274,False
+239341,Termini Imerese,2024-08-21 00:00:00.000,7,night,0.0,not predominantly agricultural,0.564,0.385,True
+280310,Termini Imerese,2025-08-29 00:11:00.000,18,night,29.4,not predominantly agricultural,0.311,0.718,True
+280309,Termini Imerese,2025-08-29 01:05:00.000,56,night,65.5,near/in agricultural land,0.258,0.392,True
+204634,Trappeto,2022-07-03 00:56:00.000,5,night,33.3,near/in agricultural land,0.402,0.32,False
+208876,Torretta,2022-08-07 11:21:00.000,14,day,0.0,not predominantly agricultural,0.84,0.433,True
+218738,Torretta,2023-08-17 12:32:00.000,41,day,4.9,not predominantly agricultural,0.461,0.36,True
+211014,Trabia,2022-10-07 11:28:00.000,6,day,33.3,near/in agricultural land,0.716,0.318,False
+209603,Trabia,2022-08-16 00:00:00.000,88,night,34.1,near/in agricultural land,0.466,0.376,True
+230044,Trabia,2024-04-29 00:45:00.000,2,night,33.3,near/in agricultural land,0.451,0.133,False
+223450,Ventimiglia di Sicilia,2023-10-27 00:37:00.000,73,night,0.0,not predominantly agricultural,0.63,0.409,True
+223271,Vicari,2023-10-19 11:10:00.000,6,day,11.1,not predominantly agricultural,0.471,0.371,True
