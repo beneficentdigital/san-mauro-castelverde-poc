@@ -11,3 +11,4 @@ output/*
 !output/san_mauro_wildfire_map.html
 !output/fire_summary_table.csv
 data/hls_chips/
+.venv_firehr/
