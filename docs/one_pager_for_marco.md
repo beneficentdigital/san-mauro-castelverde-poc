@@ -37,6 +37,10 @@ Each burnt area was checked against the official land registry (catasto) to list
 
 *Multi-comune fire complex — figure is the full detected extent, not just the San Mauro Castelverde portion. Full 15-fire table: `output/fire_summary_table.csv`.
 
+## We also checked against a second, independent satellite source
+
+Global Forest Watch's heat-detection data (a different satellite, a different method — it senses active heat while a fire burns, rather than mapping the scar afterwards) didn't closely match any of our 14 fires by location. That's expected, not a contradiction: the two tools measure different things, and heat-sensing satellites miss a lot of smaller or short-lived fires by design. Worth stating plainly rather than only reporting the sources that agree with each other.
+
 ## Important — please read before the meeting
 
 The "unusually straight edge," "near farmland," and "day/night" notes attached to each fire are **plain observations, not a verdict on cause**. They're a measured version of the same eyeballing your own reviewers already do — applied consistently to every fire, not a trained model guessing who lit it. San Mauro Castelverde simply hasn't had enough fires for that kind of model to be trustworthy, and we're not pretending otherwise.
@@ -44,6 +48,8 @@ The "unusually straight edge," "near farmland," and "day/night" notes attached t
 ## 4. What this shows
 
 The manual, fire-by-fire audit Fenice Verde already runs can be reproduced from public records alone, for one comune, checked against your own past findings before drawing conclusions from it. It caught what a broad satellite pass alone would miss, and surfaced two real fires your own catasto hadn't recorded yet. Next step, if useful: the same process on Carlentini, your other pilot comune.
+
+One tool we planned to add — a second high-resolution refinement pass (FireHR) — turned out to depend on unmaintained software that won't currently install. Rather than paper over it, we're naming it here: the AI tool we did get working (Prithvi) already covers the same role, so nothing in this report depends on the one that didn't ship. Worth revisiting FireHR for a later phase.
 
 ---
 
