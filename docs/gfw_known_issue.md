@@ -1,4 +1,14 @@
-# GFW Data API — geometry query issue (2026-09-14)
+# GFW Data API — geometry query issue (2026-09-14, resolved same day)
+
+**Resolved:** the bug is version-specific, not a total platform failure as first
+assumed. `v20250127` and earlier dataset versions filter by geometry correctly;
+`v20250206` and later are broken. Traded off against data recency - each dated
+version is a frozen snapshot as of its own creation date, not a live feed, so
+`v20250127` gives full 2018-present coverage except roughly the most recent
+8 months. Real VIIRS data fetched successfully via `scripts/fetch_gfw_fire_alerts.py`
+using that version. Worth re-checking for a newer working version periodically.
+
+## Original note, kept for the record
 
 `POST /dataset/nasa_viirs_fire_alerts/{version}/query` with a `geometry` field
 in the body consistently returns zero rows, even against:

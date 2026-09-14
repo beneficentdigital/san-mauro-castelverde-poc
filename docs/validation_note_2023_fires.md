@@ -97,6 +97,31 @@ it in the deck as "locates burn scars EFFIS misses, area estimates are
 indicative not precise" - do not quote its hectare figures as authoritative on
 their own.
 
+## GFW/VIIRS cross-check (added after GFW's API bug was fixed)
+
+Once GFW's geometry-query bug was worked around (see `docs/gfw_known_issue.md`),
+ran the full EFFIS-vs-VIIRS cross-check per brief section 2. Result: **0 of 14
+EFFIS fires have a VIIRS hotspot within 2km and 3 days** - a real disagreement,
+not a bug. Worth being honest about a false start here: two cases (the Jan and
+Feb 2024 "gap" fires) initially looked like independent VIIRS confirmation
+because the dates matched exactly, and that was nearly reported as a finding
+before checking actual coordinates - they're ~6km away, a different location
+entirely, almost certainly coincidental same-day fires elsewhere in the area.
+Caught by checking distance properly before writing it up, not after.
+
+The genuine near-miss is the August 2021 mega-fire: 60 VIIRS points in the
+right multi-day window, closest one 2.57km from the EFFIS polygon - plausibly
+the same fire complex, given VIIRS detects active heat during a satellite pass
+while EFFIS maps the final burn scar days later, so some spatial drift between
+the two is expected for a fire that size, not necessarily a disagreement about
+what happened.
+
+**Read for the gate:** GFW/VIIRS doesn't tightly corroborate any single EFFIS
+fire in this comune, which is itself worth stating plainly in the meeting
+rather than quietly dropped - it shows the two methods measure different
+things (final scar vs active heat) and shouldn't be expected to agree closely,
+especially for a comune this size where most fires are small.
+
 ## What this means for deliverable 3 (the one-pager)
 
 Don't present "EFFIS confirms the known fires" as a clean headline. The honest,
