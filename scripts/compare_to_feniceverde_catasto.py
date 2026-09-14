@@ -57,6 +57,7 @@ def main():
                     sif_match_note = f"matches SIF record '{s.get('LOCALITA')}' ({sif_date.date()}, {days_apart}d apart)"
         rows.append(
             {
+                "fire_id": fire["id"],
                 "fire_date": fire["FIREDATE"],
                 "area_ha_effis": fire["AREA_HA"],
                 "commune_field": fire["COMMUNE"],

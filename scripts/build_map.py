@@ -53,8 +53,9 @@ def main():
     ignition_df = pd.read_csv(IGNITION_CSV)
 
     fires["FIREDATE"] = fires["FIREDATE"].astype(str)
-    gap_df["fire_date"] = gap_df["fire_date"].astype(str)
-    fires = fires.merge(gap_df[["fire_date", "in_feniceverde_sif_catasto"]], left_on="FIREDATE", right_on="fire_date", how="left")
+    fires["id"] = fires["id"].astype(str)
+    gap_df["fire_id"] = gap_df["fire_id"].astype(str)
+    fires = fires.merge(gap_df[["fire_id", "in_feniceverde_sif_catasto"]], left_on="id", right_on="fire_id", how="left")
     fires["id"] = fires["id"].astype(str)
     ignition_df["fire_id"] = ignition_df["fire_id"].astype(str)
     fires = fires.merge(ignition_df[["fire_id", "day_or_night_ignition", "geometric_shape_flag", "pastureland_context_flag"]], left_on="id", right_on="fire_id", how="left")
