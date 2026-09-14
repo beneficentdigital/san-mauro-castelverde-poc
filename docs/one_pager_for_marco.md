@@ -37,6 +37,16 @@ Each burnt area was checked against the official land registry (catasto) to list
 
 *Multi-comune fire complex — figure is the full detected extent, not just the San Mauro Castelverde portion. Full 15-fire table: `output/fire_summary_table.csv`.
 
+## Burn-scar shape: a measured version of your own "fuoco geometra" check
+
+Your team already eyeballs whether a burn scar has unusually straight edges — often a sign of a controlled burn or land-clearing that spread further than intended. We measured it instead, the same way, for every fire.
+
+**5 of the 14 fires** came back with unusually straight edges. The one worth a second look: the large August 2021 fire (9,778 ha complex) is both the most geometric-shaped *and* the one sitting closest to farmland (47.7% agricultural land nearby) — that combination is exactly the kind of pattern worth a human eye, not proof of anything on its own.
+
+We also logged whether each fire started during the day or at night, straight from the satellite timestamp — no extra imagery needed. **3 of the 14 started at night.** Same rule applies: a fact worth having, not a conclusion about cause.
+
+One flag we planned but couldn't add: distance to the nearest road. The free road-data service we'd use for that was unreachable from where we built this — a gap we're naming rather than leaving unexplained.
+
 ## We also checked against a second, independent satellite source
 
 Global Forest Watch's heat-detection data (a different satellite, a different method — it senses active heat while a fire burns, rather than mapping the scar afterwards) didn't closely match any of our 14 fires by location. That's expected, not a contradiction: the two tools measure different things, and heat-sensing satellites miss a lot of smaller or short-lived fires by design. Worth stating plainly rather than only reporting the sources that agree with each other.
