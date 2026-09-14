@@ -13,6 +13,7 @@ FIRES = "data/processed/effis_sanmauro_2018_2025.geojson"
 PARCEL_MATCHES = "data/processed/fire_parcel_matches.csv"
 GAP_CSV = "data/processed/gap_analysis_vs_feniceverde.csv"
 IGNITION_CSV = "data/processed/ignition_context_flags.csv"
+GFW_CROSS_CHECK = "data/processed/effis_gfw_cross_check.csv"
 OUT = "output/fire_summary_table.csv"
 
 PRITHVI_RESULTS = {
@@ -28,6 +29,8 @@ def main():
     parcel_df = pd.read_csv(PARCEL_MATCHES)
     gap_df = pd.read_csv(GAP_CSV)
     ignition_df = pd.read_csv(IGNITION_CSV)
+    gfw_df = pd.read_csv(GFW_CROSS_CHECK)
+    gfw_df["fire_id_str"] = gfw_df["fire_id"].astype(str)
 
     fires["id_str"] = fires["id"].astype(str)
     parcel_df["fire_id_str"] = parcel_df["fire_id"].astype(str)
@@ -46,7 +49,12 @@ def main():
         left_on="fire_id", right_on="fire_id_str", how="left"
     ).drop(columns=["fire_id_str"])
 
-    df["area_ha_gfw"] = "n/a (GFW query blocked - see docs/gfw_known_issue.md)"
+    df = df.merge(gfw_df[["fire_id_str", "closest_gfw_point_km", "gfw_confirms_within_2km"]], left_on="fire_id", right_on="fire_id_str", how="left").drop(columns=["fire_id_str"])
+    df["gfw_viirs_cross_check"] = df.apply(
+        lambda r: f"nearest VIIRS hotspot {r['closest_gfw_point_km']}km away (not a tight match)" if pd.notna(r["closest_gfw_point_km"]) else "no VIIRS hotspot within 3 days",
+        axis=1,
+    )
+    df = df.drop(columns=["closest_gfw_point_km", "gfw_confirms_within_2km"])
     df["area_ha_firehr"] = "n/a (needs GEE auth, not yet set up)"
     df["area_ha_prithvi"] = df["date"].str[:10].map(lambda d: PRITHVI_RESULTS.get(d, {}).get("area_ha", "not run for this fire"))
 
@@ -54,7 +62,7 @@ def main():
     df["in_feniceverde_sif_catasto"] = df["in_feniceverde_sif_catasto"].fillna("n/a (SIF catasto is 2024-only)")
 
     cols = [
-        "date", "area_ha_effis", "area_ha_gfw", "area_ha_firehr", "area_ha_prithvi",
+        "date", "area_ha_effis", "gfw_viirs_cross_check", "area_ha_firehr", "area_ha_prithvi",
         "effis_commune_field", "n_parcels_touched", "foglio_particella_list",
         "in_feniceverde_sif_catasto", "day_or_night_ignition", "pastureland_context_flag",
         "geometric_shape_flag", "pct_natura2000",
@@ -69,7 +77,7 @@ def main():
     tiberio_row = pd.DataFrame([{
         "date": "2023-09-15 (known fire, not EFFIS-detected)",
         "area_ha_effis": "not detected (below EFFIS's mapping floor - see validation note)",
-        "area_ha_gfw": "n/a (GFW query blocked - see docs/gfw_known_issue.md)",
+        "gfw_viirs_cross_check": "no VIIRS hotspot within 3 days",
         "area_ha_firehr": "n/a (needs GEE auth, not yet set up)",
         "area_ha_prithvi": 36.0,
         "effis_commune_field": "n/a",
