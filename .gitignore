@@ -12,3 +12,5 @@ output/*
 !output/fire_summary_table.csv
 data/hls_chips/
 .venv_firehr/
+!output/palermo_province_wildfire_map.html
+!output/palermo_province_summary_by_comune.csv
