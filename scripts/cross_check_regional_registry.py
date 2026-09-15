@@ -19,8 +19,14 @@ OFFICIAL = "data/processed/regione_censimento_incendi_palermo_2018_2025.geojson"
 OUT_SUMMARY = "data/processed/effis_vs_official_registry_cross_check.csv"
 OUT_MISSED = "data/processed/official_fires_not_in_effis.csv"
 
-MATCH_KM = 1.5
+MATCH_KM = 1.5  # used for small fires (point-like at this scale, centroid distance is fine)
 MATCH_DAYS = 5
+LARGE_HA = 100  # above this, match by polygon overlap instead of centroid distance -
+# centroid distance is a weak test for large, irregular, possibly multi-lobed fire
+# shapes (a huge fire's centroid can sit far from another source's centroid for the
+# same event, as already seen with the Aug 2021 complex attributed to different
+# comuni by EFFIS vs the official registry)
+OVERLAP_BUFFER_M = 300
 
 DATE_COL = "DATI_WEB.DBO.DFCNSIINCD_DENORM.DTAINIZIOFUOCO"
 AREA_COL = "DATI_WEB.DBO.DFCNSIINCD_DENORM.TOTSUP"
@@ -38,6 +44,13 @@ def main():
     official[DATE_COL] = pd.to_datetime(official[DATE_COL], unit="ms")
 
     effis_dates = pd.to_datetime(effis_wgs["FIREDATE"])
+    effis_area_ha = effis_wgs["AREA_HA"].astype(float)
+    official_area_ha = official[AREA_COL]
+
+    def is_match(geom_a, area_a, geom_b, area_b):
+        if area_a > LARGE_HA or area_b > LARGE_HA:
+            return geom_a.buffer(OVERLAP_BUFFER_M).intersects(geom_b.buffer(OVERLAP_BUFFER_M))
+        return geom_a.distance(geom_b) / 1000 <= MATCH_KM
 
     # direction 1: EFFIS -> official
     effis_matched = 0
@@ -45,8 +58,11 @@ def main():
         fdate = effis_dates.loc[idx]
         candidates = official[(official[DATE_COL] - fdate).abs().dt.days <= MATCH_DAYS]
         if len(candidates):
-            dists = candidates.geometry.distance(effis.loc[idx].geometry) / 1000
-            if (dists <= MATCH_KM).any():
+            matched = candidates.apply(
+                lambda row: is_match(effis.loc[idx].geometry, effis_area_ha.loc[idx], row.geometry, row[AREA_COL]),
+                axis=1,
+            )
+            if matched.any():
                 effis_matched += 1
 
     # direction 2: official -> EFFIS (the more interesting number)
@@ -56,8 +72,11 @@ def main():
         candidates = effis[(effis_dates - odate).abs().dt.days <= MATCH_DAYS]
         matched = False
         if len(candidates):
-            dists = candidates.geometry.distance(official.loc[idx].geometry) / 1000
-            matched = bool((dists <= MATCH_KM).any())
+            hits = candidates.apply(
+                lambda row: is_match(official.loc[idx].geometry, official_area_ha.loc[idx], row.geometry, effis_area_ha.loc[row.name]),
+                axis=1,
+            )
+            matched = bool(hits.any())
         official_matched_flags.append(matched)
 
     official_wgs["matched_by_effis"] = official_matched_flags
