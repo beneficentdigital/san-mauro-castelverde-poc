@@ -50,16 +50,35 @@ def get_catalog():
     return _catalog
 
 
-def find_best_scene(lon, lat, date_start, date_end, exclude_id=None):
+def find_scenes(lon, lat, date_start, date_end):
+    """Return ALL candidate scenes sorted by cloud cover, not just the single
+    best - a point near an MGRS tile edge is covered by more than one tile,
+    and the lowest-cloud scene isn't always the one whose raster window
+    actually contains our chip. Trying the next-best candidate when the top
+    one fails is the fix for the ~30% 'window outside tile bounds' failures
+    seen in the first province-wide run."""
     search = get_catalog().search(
         collections=["hls2-s30"], bbox=[lon - 0.02, lat - 0.02, lon + 0.02, lat + 0.02],
         datetime=f"{date_start}/{date_end}",
     )
-    items = [i for i in search.items() if i.id != exclude_id]
-    if not items:
-        return None
+    items = list(search.items())
     items.sort(key=lambda i: i.properties.get("eo:cloud_cover", 100))
-    return items[0]
+    return items
+
+
+def fetch_scene_bands(candidates, center_lon, center_lat):
+    """Try each candidate scene in order until one's raster window actually
+    covers our chip. Returns (nir, swir, meta, item) from whichever succeeds."""
+    last_error = None
+    for item in candidates:
+        try:
+            nir, meta = fetch_band(item, "B08", center_lon, center_lat)
+            swir, _ = fetch_band(item, "B12", center_lon, center_lat)
+            return nir, swir, meta, item
+        except ValueError as e:
+            last_error = e
+            continue
+    raise ValueError(f"no candidate scene covers this location ({len(candidates)} tried): {last_error}")
 
 
 def fetch_band(item, band, center_lon, center_lat, chip_size=CHIP_SIZE):
@@ -112,15 +131,16 @@ def process_fire(fire_id, comune, fire_date, area_ha_effis, center_lon, center_l
     post_date_start = fire_date.strftime("%Y-%m-%d")
     post_date_end = (fire_date + pd.Timedelta(days=SEARCH_WINDOW_DAYS)).strftime("%Y-%m-%d")
 
-    pre_item = find_best_scene(center_lon, center_lat, pre_date_start, pre_date_end)
-    post_item = find_best_scene(center_lon, center_lat, post_date_start, post_date_end)
-    if pre_item is None or post_item is None:
+    pre_candidates = find_scenes(center_lon, center_lat, pre_date_start, pre_date_end)
+    post_candidates = find_scenes(center_lon, center_lat, post_date_start, post_date_end)
+    if not pre_candidates or not post_candidates:
         return {"fire_id": fire_id, "status": "no_imagery_found"}
 
-    pre_nir, meta = fetch_band(pre_item, "B08", center_lon, center_lat)
-    pre_swir, _ = fetch_band(pre_item, "B12", center_lon, center_lat)
-    post_nir, _ = fetch_band(post_item, "B08", center_lon, center_lat)
-    post_swir, _ = fetch_band(post_item, "B12", center_lon, center_lat)
+    try:
+        pre_nir, pre_swir, meta, pre_item = fetch_scene_bands(pre_candidates, center_lon, center_lat)
+        post_nir, post_swir, _, post_item = fetch_scene_bands(post_candidates, center_lon, center_lat)
+    except ValueError:
+        return {"fire_id": fire_id, "status": "no_covering_tile"}
 
     nbr_pre = compute_nbr(pre_nir, pre_swir)
     nbr_post = compute_nbr(post_nir, post_swir)
