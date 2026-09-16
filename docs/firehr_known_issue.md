@@ -39,6 +39,24 @@ separation held throughout this investigation and nothing outside
 - Try `micromamba`/`conda` with a pinned old `fastai` conda-forge build, which
   may carry compatible transitive pins that PyPI's flat resolver can't express.
 
+## Second attempt (2026-09-16): lighter fix tried, also failed
+
+Tried pinning `nbdev==1.0.18`, which predates `ghapi` being a dependency at
+all (uses `fastscript` instead) - a reasonable, lower-effort alternative to
+a full Docker rebuild. Two more, unrelated incompatibilities surfaced
+immediately: `fastscript>=1.0.0` itself is no longer available on PyPI (only
+a stub `0.0.0.1` remains), and separately `fastprogress` (a simple, supposedly
+lightweight progress-bar package) now pulls in a whole `fasthtml` web
+framework in its current release, which needs a `fastcore.xml` module that
+doesn't exist in older fastcore versions.
+
+That's four distinct, unrelated incompatibilities found across two sessions
+(torchvision's moved API, fastcore's `typedispatch`, `nbdev`'s `ghapi`
+dependency, and now `fastprogress`'s `fasthtml` dependency) - confirms this
+isn't a single bad pin fixable by one substitution. The entire fast.ai
+ecosystem's current dependency graph has moved on from 2020-era assumptions
+in ways that cascade regardless of which single package gets pinned.
+
 ## Recommendation
 
 Per the brief's own framing, FireHR was always the "genuinely optional, most
