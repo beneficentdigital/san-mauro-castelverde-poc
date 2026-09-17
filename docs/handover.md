@@ -32,14 +32,14 @@ either without a new idea — both were tested properly, not abandoned early.
 
 ### Agreed next-phase to-do list, in order
 
-1. **Try BAIS2** — a real, published Sentinel-2 burn index (verified via
-   research agent, not assumed): `BAIS2 = (1 − √((B06×B07×B8A)/B04)) ×
-   ((B12−B8A)/√(B12+B8A) + 1)`. Pure band math, no training, cheap to test.
-   Swap it in alongside/instead of dNBR in `scripts/dnbr_detect.py`'s
-   approach and re-run the San Mauro pilot validation (Tiberio ~2ha,
-   Pollina ~12ha — both fires' real coordinates and known areas are in
-   `docs/validation_note_2023_fires.md`) to see if it's more robust to the
-   seasonal-noise problem than plain NBR.
+1. ~~**Try BAIS2**~~ — **done 2026-09-17, negative result.** Implemented in
+   `scripts/dnbr_detect.py` (`compute_bais2`/`run_bais2`) using Filipponi's
+   own Sicily-calibrated threshold (0.865). Doesn't outperform dNBR: total
+   miss on Tiberio (7.4km off), more severe undersize than dNBR on Pollina
+   (1.89ha vs known ~12ha). Checked actual pixel values, not just threshold
+   outcome — the real fire pixels genuinely sit below 0.865 at both sites,
+   this isn't a tuning or code bug. Full writeup: `docs/bais2_test_result.md`.
+   Don't retry without a new idea, same standard as RdNBR/median-baseline.
 
 2. **Prepare Sicily registry data for training.** The 7,273 official fire
    polygons (`data/processed/regione_censimento_incendi_sicilia_2018_2025.geojson`)
